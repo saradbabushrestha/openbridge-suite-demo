@@ -1,0 +1,12 @@
+import * as React from "react";
+import { renderOpenBridgeSvg, type OpenBridgeAssetProps } from "../../../../runtime/renderOpenBridgeSvg";
+
+const svgMarkup = "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"24.0\" height=\"24.0\" viewBox=\"0 0 24.0 24.0\" fill=\"none\">\n  <defs>\n    <clipPath id=\"clip__asset\">\n      <rect x=\"0\" y=\"0\" width=\"24.0\" height=\"24.0\"/>\n    </clipPath>\n  </defs>\n  <g clip-path=\"url(#clip__asset)\" transform=\"translate(-3107.0 -220.0)\"><path d=\"M3130.59 221.57L3126.56 227.209C3126.33 227.54 3126.56 228 3126.97 228H3135.03C3135.44 228 3135.67 227.54 3135.44 227.209L3131.41 221.57C3131.21 221.29 3130.79 221.29 3130.59 221.57Z\" fill=\"#BEBEBE\" id=\"n200\"/>\n<path d=\"M3127.47 230.565L3128.88 231.979L3124.64 236.221L3123.23 234.807L3127.47 230.565Z\" fill=\"#2D548B\" id=\"n203\"/>\n<path d=\"M3129.59 232.686L3131 234.1L3126.76 238.343L3125.35 236.929L3129.59 232.686Z\" fill=\"#2D548B\" id=\"n204\"/>\n<path d=\"M3129.59 236.929L3131 238.343L3128.88 240.464L3127.47 239.05L3129.59 236.929Z\" fill=\"#2D548B\" id=\"n205\"/>\n</g>\n</svg>\n";
+
+export type IndicatorsEnvironmentEnvironmentWindWind7Props = OpenBridgeAssetProps;
+
+export const IndicatorsEnvironmentEnvironmentWindWind7 = React.forwardRef(function IndicatorsEnvironmentEnvironmentWindWind7(props: IndicatorsEnvironmentEnvironmentWindWind7Props, ref: any) {
+  return renderOpenBridgeSvg(svgMarkup, { ...props, ref, intrinsicWidth: 24.0, intrinsicHeight: 24.0 });
+});
+
+export default IndicatorsEnvironmentEnvironmentWindWind7;

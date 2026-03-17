@@ -1,0 +1,4 @@
+import { type OpenBridgeAssetProps } from "../../../runtime/renderOpenBridgeSvg";
+export type ReadoutReadoutListItemReadoutSizeBaseUnitPositionLeadingPriorityInputFlipFlopProps = OpenBridgeAssetProps;
+export declare const ReadoutReadoutListItemReadoutSizeBaseUnitPositionLeadingPriorityInputFlipFlop: any;
+export default ReadoutReadoutListItemReadoutSizeBaseUnitPositionLeadingPriorityInputFlipFlop;

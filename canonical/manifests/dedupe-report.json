@@ -1,0 +1,72 @@
+{
+  "totalAssets": 2371,
+  "uniqueCanonicalAssets": 2254,
+  "duplicateAssets": 117,
+  "familySummary": {
+    "environment": {
+      "totalAssets": 13,
+      "uniqueCanonicalAssets": 13,
+      "duplicateAssets": 0
+    },
+    "indicators": {
+      "totalAssets": 73,
+      "uniqueCanonicalAssets": 70,
+      "duplicateAssets": 3
+    },
+    "icons": {
+      "totalAssets": 1283,
+      "uniqueCanonicalAssets": 1283,
+      "duplicateAssets": 0
+    },
+    "motion": {
+      "totalAssets": 141,
+      "uniqueCanonicalAssets": 81,
+      "duplicateAssets": 60
+    },
+    "building-blocks": {
+      "totalAssets": 111,
+      "uniqueCanonicalAssets": 111,
+      "duplicateAssets": 0
+    },
+    "navigation": {
+      "totalAssets": 101,
+      "uniqueCanonicalAssets": 94,
+      "duplicateAssets": 7
+    },
+    "gauges": {
+      "totalAssets": 146,
+      "uniqueCanonicalAssets": 102,
+      "duplicateAssets": 44
+    },
+    "objects": {
+      "totalAssets": 44,
+      "uniqueCanonicalAssets": 44,
+      "duplicateAssets": 0
+    },
+    "propulsion": {
+      "totalAssets": 98,
+      "uniqueCanonicalAssets": 98,
+      "duplicateAssets": 0
+    },
+    "readout": {
+      "totalAssets": 132,
+      "uniqueCanonicalAssets": 132,
+      "duplicateAssets": 0
+    },
+    "notification-and-advice": {
+      "totalAssets": 58,
+      "uniqueCanonicalAssets": 58,
+      "duplicateAssets": 0
+    },
+    "main-navigation-elements": {
+      "totalAssets": 51,
+      "uniqueCanonicalAssets": 48,
+      "duplicateAssets": 3
+    },
+    "top-bar": {
+      "totalAssets": 120,
+      "uniqueCanonicalAssets": 120,
+      "duplicateAssets": 0
+    }
+  }
+}

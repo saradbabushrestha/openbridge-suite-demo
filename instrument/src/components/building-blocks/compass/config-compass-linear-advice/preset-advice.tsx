@@ -1,0 +1,12 @@
+import * as React from "react";
+import { renderOpenBridgeSvg, type OpenBridgeAssetProps } from "../../../../runtime/renderOpenBridgeSvg";
+
+const svgMarkup = "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"512.0\" height=\"512.0\" viewBox=\"0 0 512.0 512.0\" fill=\"none\">\n  <defs>\n    <clipPath id=\"clip__asset\">\n      <rect x=\"0\" y=\"0\" width=\"512.0\" height=\"512.0\"/>\n    </clipPath>\n  </defs>\n  <g clip-path=\"url(#clip__asset)\" transform=\"translate(-1724.0 -216.0)\"><path d=\"M2008 212V240\" stroke=\"#BEBEBE\" id=\"n121\"/>\n<rect x=\"2012.5\" y=\"228.5\" width=\"46.9998\" height=\"7\" rx=\"3.5\" fill=\"#CADEFC\" stroke=\"#2D548B\" id=\"n122\"/>\n<path d=\"M2064 212V240\" stroke=\"#BEBEBE\" id=\"n123\"/>\n<path d=\"M2008 732V704\" stroke=\"#BEBEBE\" id=\"n124\"/>\n<rect x=\"0.5\" y=\"-0.5\" width=\"46.9998\" height=\"7\" rx=\"3.5\" transform=\"matrix(1 0 0 -1 2012 715)\" fill=\"#CADEFC\" stroke=\"#2D548B\" id=\"n125\"/>\n<path d=\"M2064 732V704\" stroke=\"#BEBEBE\" id=\"n126\"/>\n<path d=\"M2008 240V704M2064 240V704\" stroke=\"#F7F7F7\" stroke-linecap=\"square\" id=\"n127\"/>\n</g>\n</svg>\n";
+
+export type BuildingBlocksCompassConfigCompassLinearAdvicePresetAdviceProps = OpenBridgeAssetProps;
+
+export const BuildingBlocksCompassConfigCompassLinearAdvicePresetAdvice = React.forwardRef(function BuildingBlocksCompassConfigCompassLinearAdvicePresetAdvice(props: BuildingBlocksCompassConfigCompassLinearAdvicePresetAdviceProps, ref: any) {
+  return renderOpenBridgeSvg(svgMarkup, { ...props, ref, intrinsicWidth: 512.0, intrinsicHeight: 512.0 });
+});
+
+export default BuildingBlocksCompassConfigCompassLinearAdvicePresetAdvice;

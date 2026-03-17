@@ -1,0 +1,12 @@
+import * as React from "react";
+import { renderOpenBridgeSvg, type OpenBridgeAssetProps } from "../../../../runtime/renderOpenBridgeSvg";
+
+const svgMarkup = "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"48.0\" height=\"48.0\" viewBox=\"0 0 48.0 48.0\" fill=\"none\">\n  <defs>\n    <clipPath id=\"clip__asset\">\n      <rect x=\"0\" y=\"0\" width=\"48.0\" height=\"48.0\"/>\n    </clipPath>\n  </defs>\n  <g clip-path=\"url(#clip__asset)\" transform=\"translate(-1844.0 -504.0)\"><path d=\"M1852 521.6C1852 518.24 1852 516.56 1852.65 515.276C1853.23 514.147 1854.15 513.229 1855.28 512.654C1856.56 512 1858.24 512 1861.6 512H1874.4C1877.76 512 1879.44 512 1880.72 512.654C1881.85 513.229 1882.77 514.147 1883.35 515.276C1884 516.56 1884 518.24 1884 521.6V534.4C1884 537.76 1884 539.44 1883.35 540.724C1882.77 541.853 1881.85 542.771 1880.72 543.346C1879.44 544 1877.76 544 1874.4 544H1861.6C1858.24 544 1856.56 544 1855.28 543.346C1854.15 542.771 1853.23 541.853 1852.65 540.724C1852 539.44 1852 537.76 1852 534.4V521.6Z\" fill=\"black\" fill-opacity=\"0.1\" id=\"n746\"/>\n<path d=\"M1859 524V526H1869V524H1859ZM1863 528V530H1859V532H1863V534H1865V528H1863ZM1877 532V530H1867V532H1877ZM1871 528H1873V526H1877V524H1873V522H1871V528Z\" fill=\"#535353\" id=\"n747\"/>\n</g>\n</svg>\n";
+
+export type TopBarSystemSystemButtonTypeCondensedStateActiveProps = OpenBridgeAssetProps;
+
+export const TopBarSystemSystemButtonTypeCondensedStateActive = React.forwardRef(function TopBarSystemSystemButtonTypeCondensedStateActive(props: TopBarSystemSystemButtonTypeCondensedStateActiveProps, ref: any) {
+  return renderOpenBridgeSvg(svgMarkup, { ...props, ref, intrinsicWidth: 48.0, intrinsicHeight: 48.0 });
+});
+
+export default TopBarSystemSystemButtonTypeCondensedStateActive;

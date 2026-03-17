@@ -1,0 +1,56 @@
+{
+  "package": "openbridge_instrument_assets_extracted_usable",
+  "asset_count": 859,
+  "leaf_count": 766,
+  "composite_count": 93,
+  "group_counts": {
+    "building-blocks": 111,
+    "objects": 44,
+    "indicators": 73,
+    "environment": 13,
+    "gauges": 146,
+    "motion": 141,
+    "propulsion": 98,
+    "navigation": 101,
+    "readout": 132
+  },
+  "group_offsets": {
+    "building-blocks": {
+      "offset_x": 40.0,
+      "offset_y": 40.0
+    },
+    "objects": {
+      "offset_x": 40.0,
+      "offset_y": 40.0
+    },
+    "indicators": {
+      "offset_x": 40.0,
+      "offset_y": 40.0
+    },
+    "environment": {
+      "offset_x": 40.0,
+      "offset_y": 40.0
+    },
+    "gauges": {
+      "offset_x": 40.0,
+      "offset_y": 40.0
+    },
+    "motion": {
+      "offset_x": 40.0,
+      "offset_y": 40.0
+    },
+    "propulsion": {
+      "offset_x": 40.0,
+      "offset_y": 40.0
+    },
+    "navigation": {
+      "offset_x": 40.0,
+      "offset_y": 40.0
+    },
+    "readout": {
+      "offset_x": 40.0,
+      "offset_y": 40.0
+    }
+  },
+  "shape_asset_count": 859
+}

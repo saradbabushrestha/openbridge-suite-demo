@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48.0" height="48.0" viewBox="0 0 48.0 48.0" fill="none">
+  <defs><clipPath id="clip__asset"><rect x="0" y="0" width="48.0" height="48.0"/></clipPath><mask id="mask28_68_6728" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="2593" y="305" width="14" height="38">
+<rect x="2594" y="306" width="12" height="36" rx="2" fill="white" stroke="white" id="n362"/>
+</mask>
+<clipPath id="clip15_68_6728">
+<rect width="48" height="48" fill="white" transform="translate(2576 300)" id="n459"/>
+</clipPath>
+</defs>
+  <g clip-path="url(#clip__asset)" transform="translate(-2576.0 -300.0)"><g clip-path="url(#clip15_68_6728)" id="n360">
+<rect x="2594" y="306" width="12" height="36" rx="2" fill="white" stroke="#BEBEBE" id="n361"/>
+<mask id="mask28_68_6728" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="2593" y="305" width="14" height="38">
+<rect x="2594" y="306" width="12" height="36" rx="2" fill="white" stroke="white" id="n362"/>
+</mask>
+<g mask="url(#mask28_68_6728)" id="n363">
+<rect x="2594" y="326" width="12" height="16" fill="#9CC1F5" stroke="#9CC1F5" id="n364"/>
+<path d="M2606 326H2594" stroke="#2D548B" stroke-width="2" stroke-linecap="square" id="n365"/>
+</g>
+</g>
+</g>
+</svg>

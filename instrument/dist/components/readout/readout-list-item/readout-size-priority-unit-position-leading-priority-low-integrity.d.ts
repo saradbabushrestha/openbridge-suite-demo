@@ -1,0 +1,4 @@
+import { type OpenBridgeAssetProps } from "../../../runtime/renderOpenBridgeSvg";
+export type ReadoutReadoutListItemReadoutSizePriorityUnitPositionLeadingPriorityLowIntegrityProps = OpenBridgeAssetProps;
+export declare const ReadoutReadoutListItemReadoutSizePriorityUnitPositionLeadingPriorityLowIntegrity: any;
+export default ReadoutReadoutListItemReadoutSizePriorityUnitPositionLeadingPriorityLowIntegrity;

@@ -1,0 +1,49 @@
+{
+  "name": "openbridge-semantic-suite-canonical-plus",
+  "private": true,
+  "type": "module",
+  "description": "OpenBridge extracted assets with canonical dedupe registry, icon integration, generated canonical wrappers, and expanded semantic coverage.",
+  "exports": {
+    ".": {
+      "types": "./dist/src/index.d.ts",
+      "default": "./dist/src/index.js"
+    },
+    "./semantic": {
+      "types": "./dist/src/semantic/index.d.ts",
+      "default": "./dist/src/semantic/index.js"
+    },
+    "./runtime": {
+      "types": "./dist/src/runtime/openbridgeRegistry.d.ts",
+      "default": "./dist/src/runtime/openbridgeRegistry.js"
+    },
+    "./canonical": {
+      "types": "./dist/src/canonical/index.d.ts",
+      "default": "./dist/src/canonical/index.js"
+    },
+    "./shell": {
+      "types": "./shell/dist/index.d.ts",
+      "default": "./shell/dist/index.js"
+    },
+    "./instrument": {
+      "types": "./instrument/dist/index.d.ts",
+      "default": "./instrument/dist/index.js"
+    },
+    "./icons": {
+      "types": "./icons/dist/index.d.ts",
+      "default": "./icons/dist/index.js"
+    }
+  },
+  "version": "4.0.0",
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "build": "tsc -p tsconfig.build.json",
+    "build:all": "npm run build && npm run build:shell && npm run build:instrument && npm run build:icons",
+    "build:shell": "tsc -p shell/tsconfig.build.json",
+    "build:instrument": "tsc -p instrument/tsconfig.build.json",
+    "build:icons": "tsc -p icons/tsconfig.build.json"
+  }
+}

@@ -1,0 +1,12 @@
+import * as React from "react";
+import { renderOpenBridgeSvg, type OpenBridgeAssetProps } from "../../../runtime/renderOpenBridgeSvg";
+
+const svgMarkup = "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"512.0\" height=\"512.0\" viewBox=\"0 0 512.0 512.0\" fill=\"none\">\n  <defs>\n    <clipPath id=\"clip__asset\">\n      <rect x=\"0\" y=\"0\" width=\"512.0\" height=\"512.0\"/>\n    </clipPath>\n  </defs>\n  <g clip-path=\"url(#clip__asset)\" transform=\"translate(-2652.0 -2119.0)\"><path d=\"M2686.3 2503C2708.77 2541.92 2741.08 2574.23 2780 2596.7C2818.92 2619.17 2863.06 2631 2908 2631C2952.94 2631 2997.08 2619.17 3036 2596.7C3074.92 2574.23 3107.23 2541.92 3129.7 2503L2908 2375L2686.3 2503Z\" stroke=\"#535353\" id=\"n134\"/>\n</g>\n</svg>\n";
+
+export type BuildingBlocksHeadingConfigHeadingRadialAdviceDangerProps = OpenBridgeAssetProps;
+
+export const BuildingBlocksHeadingConfigHeadingRadialAdviceDanger = React.forwardRef(function BuildingBlocksHeadingConfigHeadingRadialAdviceDanger(props: BuildingBlocksHeadingConfigHeadingRadialAdviceDangerProps, ref: any) {
+  return renderOpenBridgeSvg(svgMarkup, { ...props, ref, intrinsicWidth: 512.0, intrinsicHeight: 512.0 });
+});
+
+export default BuildingBlocksHeadingConfigHeadingRadialAdviceDanger;

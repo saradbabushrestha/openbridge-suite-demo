@@ -1,0 +1,12 @@
+import * as React from "react";
+import { renderOpenBridgeSvg, type OpenBridgeAssetProps } from "../../../runtime/renderOpenBridgeSvg";
+
+const svgMarkup = "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"512.0\" height=\"512.0\" viewBox=\"0 0 512.0 512.0\" fill=\"none\">\n  <defs>\n    <clipPath id=\"clip__asset\">\n      <rect x=\"0\" y=\"0\" width=\"512.0\" height=\"512.0\"/>\n    </clipPath>\n  </defs>\n  <g clip-path=\"url(#clip__asset)\" transform=\"translate(-9231.0 -3107.0)\"><path d=\"M9265.3 3491C9287.77 3529.92 9320.08 3562.23 9359 3584.7C9397.92 3607.17 9442.06 3619 9487 3619C9531.94 3619 9576.08 3607.17 9615 3584.7C9653.92 3562.23 9686.23 3529.92 9708.7 3491L9487 3363L9265.3 3491Z\" stroke=\"#535353\" id=\"n553\"/>\n</g>\n</svg>\n";
+
+export type BuildingBlocksAzimuthConfigAzimuthAdviceCautionProps = OpenBridgeAssetProps;
+
+export const BuildingBlocksAzimuthConfigAzimuthAdviceCaution = React.forwardRef(function BuildingBlocksAzimuthConfigAzimuthAdviceCaution(props: BuildingBlocksAzimuthConfigAzimuthAdviceCautionProps, ref: any) {
+  return renderOpenBridgeSvg(svgMarkup, { ...props, ref, intrinsicWidth: 512.0, intrinsicHeight: 512.0 });
+});
+
+export default BuildingBlocksAzimuthConfigAzimuthAdviceCaution;

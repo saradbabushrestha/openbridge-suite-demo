@@ -1,0 +1,9 @@
+import * as React from 'react';
+import { OpenBridgeCanonicalAsset } from '../../../../../../../runtime/openbridgeCanonicalRegistry';
+import type { OpenBridgeAssetProps } from '../../../../../../../runtime/openbridgeRegistry';
+
+export function ObPropulsionPartialsControlsPropulsionPropulsionTunnelThrusterStateNotInCommand(props: OpenBridgeAssetProps) {
+  return <OpenBridgeCanonicalAsset asset="propulsion/partials/controls/propulsion/propulsion-tunnel-thruster/state-not-in-command" {...props} />;
+}
+
+export default ObPropulsionPartialsControlsPropulsionPropulsionTunnelThrusterStateNotInCommand;

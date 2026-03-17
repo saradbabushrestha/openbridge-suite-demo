@@ -1,0 +1,12 @@
+import * as React from "react";
+import { renderOpenBridgeSvg, type OpenBridgeAssetProps } from "../../../../runtime/renderOpenBridgeSvg";
+
+const svgMarkup = "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"48.0\" height=\"48.0\" viewBox=\"0 0 48.0 48.0\" fill=\"none\">\n  <defs><clipPath id=\"clip__asset\"><rect x=\"0\" y=\"0\" width=\"48.0\" height=\"48.0\"/></clipPath><mask id=\"mask27_68_6728\" style=\"mask-type:alpha\" maskUnits=\"userSpaceOnUse\" x=\"2655\" y=\"317\" width=\"38\" height=\"14\">\n<rect x=\"2656\" y=\"318\" width=\"36\" height=\"12\" rx=\"2\" fill=\"white\" stroke=\"white\" id=\"n356\"/>\n</mask>\n<clipPath id=\"clip14_68_6728\">\n<rect width=\"48\" height=\"48\" fill=\"white\" transform=\"translate(2650 300)\" id=\"n458\"/>\n</clipPath>\n</defs>\n  <g clip-path=\"url(#clip__asset)\" transform=\"translate(-2650.0 -300.0)\"><g clip-path=\"url(#clip14_68_6728)\" id=\"n354\">\n<rect x=\"2656\" y=\"318\" width=\"36\" height=\"12\" rx=\"2\" fill=\"white\" stroke=\"#BEBEBE\" id=\"n355\"/>\n<mask id=\"mask27_68_6728\" style=\"mask-type:alpha\" maskUnits=\"userSpaceOnUse\" x=\"2655\" y=\"317\" width=\"38\" height=\"14\">\n<rect x=\"2656\" y=\"318\" width=\"36\" height=\"12\" rx=\"2\" fill=\"white\" stroke=\"white\" id=\"n356\"/>\n</mask>\n<g mask=\"url(#mask27_68_6728)\" id=\"n357\">\n<rect x=\"2656\" y=\"318\" width=\"16\" height=\"12\" fill=\"#9CC1F5\" stroke=\"#9CC1F5\" id=\"n358\"/>\n<path d=\"M2672 318V330\" stroke=\"#2D548B\" stroke-width=\"2\" stroke-linecap=\"square\" id=\"n359\"/>\n</g>\n</g>\n</g>\n</svg>\n";
+
+export type IndicatorsGaugesGaugeBarDirectionHorizontalTypeTindedProps = OpenBridgeAssetProps;
+
+export const IndicatorsGaugesGaugeBarDirectionHorizontalTypeTinded = React.forwardRef(function IndicatorsGaugesGaugeBarDirectionHorizontalTypeTinded(props: IndicatorsGaugesGaugeBarDirectionHorizontalTypeTindedProps, ref: any) {
+  return renderOpenBridgeSvg(svgMarkup, { ...props, ref, intrinsicWidth: 48.0, intrinsicHeight: 48.0 });
+});
+
+export default IndicatorsGaugesGaugeBarDirectionHorizontalTypeTinded;

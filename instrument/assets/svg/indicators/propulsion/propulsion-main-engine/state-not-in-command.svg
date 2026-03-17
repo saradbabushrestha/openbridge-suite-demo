@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48.0" height="48.0" viewBox="0 0 48.0 48.0" fill="none">
+  <defs><clipPath id="clip__asset"><rect x="0" y="0" width="48.0" height="48.0"/></clipPath><mask id="mask24_68_6728" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="1920" y="319" width="34" height="34">
+<rect x="1953" y="320" width="32" height="32" rx="2" transform="rotate(90 1953 320)" fill="white" stroke="#BEBEBE" id="n305"/>
+</mask>
+</defs>
+  <g clip-path="url(#clip__asset)" transform="translate(-1913.0 -312.0)"><path d="M1936.59 314.57L1932.56 320.21C1932.33 320.54 1932.56 321 1932.97 321H1941.03C1941.44 321 1941.67 320.54 1941.44 320.21L1937.41 314.57C1937.21 314.291 1936.79 314.291 1936.59 314.57Z" fill="#BEBEBE" id="n300"/>
+<path d="M1951 320C1952.1 320 1953 320.895 1953 322L1953 350C1953 351.105 1952.1 352 1951 352H1923C1921.9 352 1921 351.105 1921 350L1921 322C1921 320.895 1921.9 320 1923 320L1951 320Z" fill="white" stroke="#BEBEBE" id="n301"/>
+<rect x="1925" y="320" width="8" height="32" fill="#F0F0F0" stroke="#F0F0F0" id="n302"/>
+<rect x="1941" y="320" width="8" height="32" fill="#F0F0F0" stroke="#F0F0F0" id="n303"/>
+<path d="M1951 320C1952.1 320 1953 320.895 1953 322L1953 350C1953 351.105 1952.1 352 1951 352H1923C1921.9 352 1921 351.105 1921 350L1921 322C1921 320.895 1921.9 320 1923 320L1951 320Z" stroke="#BEBEBE" id="n304"/>
+<g mask="url(#mask24_68_6728)" id="n306">
+<rect x="1925" y="341" width="8" height="11" fill="#BEBEBE" stroke="#BEBEBE" id="n307"/>
+<rect x="1921" y="351" width="12" height="1" fill="#BEBEBE" stroke="#BEBEBE" id="n308"/>
+<rect x="1925" y="340" width="8" height="1" rx="0.5" fill="#535353" stroke="#535353" id="n309"/>
+</g>
+<path d="M1941 329H1949V336H1941V329Z" fill="#535353" id="n310"/>
+<path d="M1941 329V328.5H1940.5V329H1941ZM1949 329H1949.5V328.5H1949V329ZM1941 329.5H1949V328.5H1941V329.5ZM1948.5 329V336H1949.5V329H1948.5ZM1941.5 336V329H1940.5V336H1941.5Z" fill="#535353" id="n311"/>
+<rect x="1941" y="335.5" width="12" height="1" rx="0.5" fill="#535353" stroke="#535353" id="n312"/>
+</g>
+</svg>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48.0" height="48.0" viewBox="0 0 48.0 48.0" fill="none">
+  <defs><clipPath id="clip__asset"><rect x="0" y="0" width="48.0" height="48.0"/></clipPath><clipPath id="clip11_68_6728">
+<rect width="48" height="48" fill="white" transform="translate(1666 384)" id="n455"/>
+</clipPath>
+</defs>
+  <g clip-path="url(#clip__asset)" transform="translate(-1666.0 -384.0)"><g clip-path="url(#clip11_68_6728)" id="n260">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M1686.13 390.417L1689.59 385.57C1689.79 385.291 1690.21 385.291 1690.41 385.57L1693.87 390.417C1692.62 390.144 1691.33 390 1690 390C1688.67 390 1687.38 390.144 1686.13 390.417Z" fill="#BEBEBE" id="n261"/>
+<circle cx="1690" cy="408" r="18" stroke="#BEBEBE" id="n262"/>
+<path d="M1686 396C1686 394.895 1686.9 394 1688 394H1692C1693.1 394 1694 394.895 1694 396V420C1694 421.105 1693.1 422 1692 422H1688C1686.9 422 1686 421.105 1686 420V396Z" stroke="#BEBEBE" id="n263"/>
+<rect x="1686" y="407" width="8" height="2" fill="#BEBEBE" id="n264"/>
+</g>
+</g>
+</svg>

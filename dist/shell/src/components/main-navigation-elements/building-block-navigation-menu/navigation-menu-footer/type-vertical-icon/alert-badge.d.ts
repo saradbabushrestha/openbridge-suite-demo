@@ -1,0 +1,4 @@
+import { type OpenBridgeAssetProps } from "../../../../../runtime/renderOpenBridgeSvg";
+export type MainNavigationElementsBuildingBlockNavigationMenuNavigationMenuFooterTypeVerticalIconAlertBadgeProps = OpenBridgeAssetProps;
+export declare const MainNavigationElementsBuildingBlockNavigationMenuNavigationMenuFooterTypeVerticalIconAlertBadge: any;
+export default MainNavigationElementsBuildingBlockNavigationMenuNavigationMenuFooterTypeVerticalIconAlertBadge;

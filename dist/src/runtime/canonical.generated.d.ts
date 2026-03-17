@@ -1,0 +1,27 @@
+import type { OpenBridgeRegistryKey } from "./openbridgeRegistry";
+export type OpenBridgeLegacyKey = string;
+export type OpenBridgeCanonicalKey = string;
+export type OpenBridgeCanonicalEntry = {
+    legacyKey: OpenBridgeRegistryKey;
+    canonicalKey: string;
+    package: "shell" | "instrument" | "icons";
+    domain: string;
+    layer: string;
+    area: string;
+    kind: string;
+    width: number;
+    height: number;
+    shapeCount: number;
+    sourceGroup: string;
+    sourceRelPath: string;
+    sourceSvgPath: string;
+    sourceCssPath: string;
+    sourceTsxPath: string;
+    canonicalSvgPath: string;
+    canonicalCssPath: string;
+    sha256: string;
+    duplicateCount: number;
+    aliases: string[];
+};
+export declare const openBridgeLegacyToCanonical: Record<OpenBridgeLegacyKey, OpenBridgeCanonicalKey>;
+export declare const openBridgeCanonicalRegistry: Record<OpenBridgeCanonicalKey, OpenBridgeCanonicalEntry>;

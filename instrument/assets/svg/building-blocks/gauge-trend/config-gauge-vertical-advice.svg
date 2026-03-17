@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="686.0" height="1151.0" viewBox="0 0 686.0 1151.0" fill="none">
+  <defs><clipPath id="clip__asset"><rect x="0" y="0" width="686.0" height="1151.0"/></clipPath><mask id="mask66_68_6728" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="25401" y="355" width="24" height="31">
+<rect x="25412.5" y="355.5" width="29.9999" height="7" rx="3.5" transform="rotate(90 25412.5 355.5)" fill="black" stroke="black" id="n1070"/>
+</mask>
+<mask id="mask67_68_6728" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="24913" y="355" width="24" height="31">
+<rect x="0.5" y="0.5" width="29.9999" height="7" rx="3.5" transform="matrix(0 1 1 0 24925 355)" fill="black" stroke="black" id="n1076"/>
+</mask>
+<pattern id="pattern34_68_6728" patternUnits="userSpaceOnUse" patternTransform="matrix(8 0 0 16 228 19.5)" preserveAspectRatio="none" viewBox="0 0 16 32" width="1" height="1">
+<use xlink:href="#pattern34_68_6728_inner" transform="translate(-16 0)" id="n2258"/>
+<g id="pattern34_68_6728_inner">
+<rect x="6" y="6" width="4" height="4" fill="#BEBEBE" id="n2259"/>
+</g>
+<use xlink:href="#pattern34_68_6728_inner" transform="translate(-8 16)" id="n2260"/>
+<use xlink:href="#pattern34_68_6728_inner" transform="translate(8 16)" id="n2261"/>
+</pattern><g id="pattern34_68_6728_inner">
+<rect x="6" y="6" width="4" height="4" fill="#BEBEBE" id="n2259"/>
+</g>
+<pattern id="pattern35_68_6728" patternUnits="userSpaceOnUse" patternTransform="matrix(16 0 0 16 7.49994 4)" preserveAspectRatio="none" viewBox="0 0 16 16" width="1" height="1">
+<g id="pattern35_68_6728_inner">
+<g clip-path="url(#clip104_68_6728)" id="n2262">
+<path d="M-0.000693321 0L15.9993 16M-8 8L8 24M8 -8L24 8" stroke="#BEBEBE" stroke-width="6" id="n2263"/>
+</g>
+</g>
+</pattern><pattern id="pattern36_68_6728" patternUnits="userSpaceOnUse" patternTransform="matrix(16 0 0 16 7.49994 4)" preserveAspectRatio="none" viewBox="0 0 16 16" width="1" height="1">
+<g id="pattern36_68_6728_inner">
+<g clip-path="url(#clip105_68_6728)" id="n2264">
+<path d="M-0.000693321 0L15.9993 16M-8 8L8 24M8 -8L24 8" stroke="#BEBEBE" stroke-width="6" id="n2265"/>
+</g>
+</g>
+</pattern><clipPath id="clip104_68_6728">
+<rect width="16" height="16" fill="white" id="n2312"/>
+</clipPath>
+<clipPath id="clip105_68_6728">
+<rect width="16" height="16" fill="white" id="n2313"/>
+</clipPath>
+</defs>
+  <g clip-path="url(#clip__asset)" transform="translate(-24826.0 -200.0)"><rect x="24826.5" y="200.5" width="685" height="1150" rx="4.5" fill="#F0F0F0" id="n1057"/>
+<path d="M25429 351L25401 351" stroke="#BEBEBE" id="n1059"/>
+<rect x="-0.5" y="-0.5" width="37.9998" height="7" rx="3.5" transform="matrix(4.76175e-07 -1 -1 -4.01257e-09 25412 346)" fill="#BEBEBE" stroke="#BEBEBE" id="n1060"/>
+<path d="M25429 304L25401 304" stroke="#BEBEBE" id="n1061"/>
+<path d="M24909 351L24937 351" stroke="#BEBEBE" id="n1062"/>
+<rect x="24925.5" y="346.5" width="37.9998" height="7" rx="3.5" transform="rotate(-90 24925.5 346.5)" fill="#BEBEBE" stroke="#BEBEBE" id="n1063"/>
+<path d="M24909 304L24937 304" stroke="#BEBEBE" id="n1064"/>
+<rect width="464" height="47" transform="translate(24937 304)" fill="url(#pattern34_68_6728)" id="n1065"/>
+<path d="M25401 351L24937 351M25401 304L24937 304" stroke="#F7F7F7" stroke-linecap="square" id="n1066"/>
+<path d="M25401 351L24937 351M25401 304L24937 304" stroke="#BEBEBE" stroke-linecap="square" id="n1067"/>
+<path d="M25429 351L25401 351" stroke="#BEBEBE" id="n1068"/>
+<rect x="25412.5" y="355.5" width="29.9998" height="7" rx="3.5" transform="rotate(90 25412.5 355.5)" fill="white" stroke="#BEBEBE" id="n1069"/>
+<g mask="url(#mask66_68_6728)" id="n1071">
+<rect width="30.9999" height="24" transform="matrix(0 1 -1 0 25425 355)" fill="url(#pattern35_68_6728)" id="n1072"/>
+</g>
+<path d="M25429 390L25401 390" stroke="#BEBEBE" id="n1073"/>
+<path d="M24909 351L24937 351" stroke="#BEBEBE" id="n1074"/>
+<rect x="0.5" y="0.5" width="29.9998" height="7" rx="3.5" transform="matrix(0 1 1 0 24925 355)" fill="white" stroke="#BEBEBE" id="n1075"/>
+<g mask="url(#mask67_68_6728)" id="n1077">
+<rect width="30.9999" height="24" transform="matrix(0 1 1 0 24913 355)" fill="url(#pattern36_68_6728)" id="n1078"/>
+</g>
+<path d="M24909 390L24937 390" stroke="#BEBEBE" id="n1079"/>
+<rect x="25412.5" y="486.5" width="45" height="7" rx="3.5" transform="rotate(90 25412.5 486.5)" fill="#CADEFC" stroke="#2D548B" id="n1081"/>
+<rect x="0.5" y="0.5" width="45" height="7" rx="3.5" transform="matrix(-4.37114e-08 1 1 4.37114e-08 24925 486)" fill="#CADEFC" stroke="#2D548B" id="n1082"/>
+<path d="M25401 486L24937 486M25401 532L24937 532" stroke="#F7F7F7" stroke-linecap="square" id="n1083"/>
+</g>
+</svg>

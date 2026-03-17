@@ -1,0 +1,4 @@
+import { type OpenBridgeAssetProps } from "../../../../runtime/renderOpenBridgeSvg";
+export type ReadoutLayoutPresetsLayoutPresetDirectionVerticalReadoutStackingVerticalTextStackingHorizontalProps = OpenBridgeAssetProps;
+export declare const ReadoutLayoutPresetsLayoutPresetDirectionVerticalReadoutStackingVerticalTextStackingHorizontal: any;
+export default ReadoutLayoutPresetsLayoutPresetDirectionVerticalReadoutStackingVerticalTextStackingHorizontal;

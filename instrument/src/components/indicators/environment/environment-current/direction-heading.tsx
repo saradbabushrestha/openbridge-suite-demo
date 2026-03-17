@@ -1,0 +1,12 @@
+import * as React from "react";
+import { renderOpenBridgeSvg, type OpenBridgeAssetProps } from "../../../../runtime/renderOpenBridgeSvg";
+
+const svgMarkup = "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"48.0\" height=\"48.0\" viewBox=\"0 0 48.0 48.0\" fill=\"none\">\n  <defs>\n    <clipPath id=\"clip__asset\">\n      <rect x=\"0\" y=\"0\" width=\"48.0\" height=\"48.0\"/>\n    </clipPath>\n  </defs>\n  <g clip-path=\"url(#clip__asset)\" transform=\"translate(-3252.0 -220.0)\"><path d=\"M3275.59 221.57L3271.56 227.209C3271.33 227.54 3271.56 228 3271.97 228H3280.03C3280.44 228 3280.67 227.54 3280.44 227.209L3276.41 221.57C3276.21 221.29 3275.79 221.29 3275.59 221.57Z\" fill=\"#BEBEBE\" id=\"n238\"/>\n<circle cx=\"3276\" cy=\"244\" r=\"18\" fill=\"white\" stroke=\"#BEBEBE\" id=\"n239\"/>\n<path d=\"M3272.47 239.051L3268.23 234.808L3266.81 236.222L3271.05 240.465L3272.47 239.051Z\" fill=\"#2D548B\" id=\"n240\"/>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3284.49 245.122L3284.49 252.486L3277.13 252.486V250.486L3282.49 250.486L3282.49 245.122L3284.49 245.122Z\" fill=\"#2D548B\" id=\"n241\"/>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3280.54 241.465L3280.54 248.829H3273.18L3273.18 246.829L3278.54 246.829L3278.54 241.465L3280.54 241.465Z\" fill=\"#2D548B\" id=\"n242\"/>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3276.3 237.222L3276.3 244.586L3268.93 244.586L3268.93 242.586L3274.3 242.586L3274.3 237.222L3276.3 237.222Z\" fill=\"#2D548B\" id=\"n243\"/>\n</g>\n</svg>\n";
+
+export type IndicatorsEnvironmentEnvironmentCurrentDirectionHeadingProps = OpenBridgeAssetProps;
+
+export const IndicatorsEnvironmentEnvironmentCurrentDirectionHeading = React.forwardRef(function IndicatorsEnvironmentEnvironmentCurrentDirectionHeading(props: IndicatorsEnvironmentEnvironmentCurrentDirectionHeadingProps, ref: any) {
+  return renderOpenBridgeSvg(svgMarkup, { ...props, ref, intrinsicWidth: 48.0, intrinsicHeight: 48.0 });
+});
+
+export default IndicatorsEnvironmentEnvironmentCurrentDirectionHeading;

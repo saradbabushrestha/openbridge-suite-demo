@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48.0" height="48.0" viewBox="0 0 48.0 48.0" fill="none">
+  <defs>
+    <clipPath id="clip__asset">
+      <rect x="0" y="0" width="48.0" height="48.0"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#clip__asset)" transform="translate(-545.0 -292.0)"><path d="M583 300C584.105 300 585 300.895 585 302L585 330C585 331.105 584.105 332 583 332H555C553.895 332 553 331.105 553 330L553 302C553 300.895 553.895 300 555 300L583 300Z" fill="white" stroke="#BEBEBE" id="n84"/>
+<path d="M569 300V332" stroke="#BEBEBE" id="n85"/>
+<path d="M563 300V325" stroke="#2D548B" stroke-width="2" id="n86"/>
+<path d="M583 300C584.105 300 585 300.895 585 302L585 330C585 331.105 584.105 332 583 332H555C553.895 332 553 331.105 553 330L553 302C553 300.895 553.895 300 555 300L583 300Z" stroke="#BEBEBE" id="n87"/>
+<path d="M562.358 318.857C562.645 318.381 563.355 318.381 563.642 318.857L563.696 318.967L567.426 328.132C567.798 329.048 566.773 329.832 565.976 329.354V329.353L563 327.581L560.023 329.353L560.024 329.354C559.227 329.832 558.202 329.048 558.574 328.132L562.304 318.967L562.358 318.857Z" fill="#2D548B" stroke="#F7F7F7" id="n88"/>
+</g>
+</svg>

@@ -1,0 +1,13325 @@
+/* 06_Environment */
+
+box-sizing: border-box;
+
+position: relative;
+width: 2432px;
+height: 2309px;
+
+background: rgba(0, 0, 0, 0.1);
+border: 1px solid #DDDDDD;
+border-radius: 96px;
+
+
+/* Wind */
+
+box-sizing: border-box;
+
+position: relative;
+width: 2272px;
+height: 2149px;
+left: 80px;
+top: 80px;
+
+background: #F7F7F7;
+border: 1px solid rgba(0, 0, 0, 0.1);
+border-radius: 32px;
+
+
+/* Wind */
+
+box-sizing: border-box;
+
+position: relative;
+width: 1016px;
+height: 1661px;
+left: 80px;
+top: 408px;
+
+background: #F7F7F7;
+border: 1px dashed #9747FF;
+border-radius: 4px;
+
+
+/* Type=Histogram, Priority=Regular */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 384px;
+height: 384px;
+left: 48px;
+top: 45px;
+
+
+
+/* label-spacer */
+
+display: none;
+width: 20px;
+height: 20px;
+
+background: #F0F0F0;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* spacer-vertical */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 384px;
+height: 384px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* label-spacer */
+
+display: none;
+width: 20px;
+height: 20px;
+
+background: #F0F0F0;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* instrument-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 384px;
+height: 384px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* visual-target */
+
+width: 384px;
+height: 384px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* instrument */
+
+position: absolute;
+left: -16.67%;
+right: -16.67%;
+top: -16.67%;
+bottom: -16.67%;
+
+
+
+/* watch-face-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Watch-face */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* frame-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Frame */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* scale */
+
+position: absolute;
+left: 13.28%;
+right: 13.28%;
+top: 13.28%;
+bottom: 13.28%;
+
+background: #FFFFFF;
+border: 1px solid #FFFFFF;
+
+
+/* track */
+
+position: absolute;
+left: 17.97%;
+right: 17.97%;
+top: 17.97%;
+bottom: 17.97%;
+
+background: #F0F0F0;
+border: 1px solid #F0F0F0;
+
+
+/* outline */
+
+position: absolute;
+left: 13.28%;
+right: 13.28%;
+top: 13.28%;
+bottom: 13.28%;
+
+border: 1px solid #BEBEBE;
+
+
+/* cross-hair-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* outline */
+
+position: absolute;
+left: 13.28%;
+right: 13.28%;
+top: 13.28%;
+bottom: 13.28%;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+
+
+/* Cross-hair */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* horizontal */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 50%;
+bottom: 50%;
+
+border: 1px solid #BEBEBE;
+
+
+/* vertical */
+
+position: absolute;
+left: 50%;
+right: -50%;
+top: 0%;
+bottom: 100%;
+
+border: 1px solid #BEBEBE;
+transform: rotate(90deg);
+
+
+/* cross-hair-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* label-circle */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 28.12%;
+right: 28.12%;
+top: 28.12%;
+bottom: 28.12%;
+
+background: #FFFFFF;
+border: 20px solid #000000;
+
+
+/* Cross-hair */
+
+position: absolute;
+left: 17.97%;
+right: 17.97%;
+top: 17.97%;
+bottom: 17.97%;
+
+
+
+/* horizontal */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 50%;
+bottom: 50%;
+
+border: 1px solid #BEBEBE;
+
+
+/* vertical */
+
+position: absolute;
+left: 50%;
+right: -50%;
+top: 0%;
+bottom: 100%;
+
+border: 1px solid #BEBEBE;
+transform: rotate(90deg);
+
+
+/* scale-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Scale-mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* scale */
+
+position: absolute;
+left: 13.28%;
+right: 13.28%;
+top: 13.28%;
+bottom: 13.28%;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+
+
+/* Scale */
+
+position: absolute;
+width: 512px;
+left: calc(50% - 512px/2);
+top: 0%;
+bottom: 0%;
+
+
+
+/* secondary-marks-container */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* primary-marks-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Mask-radial-tick-marks-proportional */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* frame-size */
+
+position: absolute;
+width: 368px;
+height: 368px;
+left: 72px;
+top: 72px;
+
+background: #000000;
+
+
+/* outer-circle */
+
+position: absolute;
+height: 368px;
+left: 14.06%;
+right: 14.06%;
+top: calc(50% - 368px/2);
+
+background: #000000;
+
+
+/* inner-circle */
+
+position: absolute;
+height: 320px;
+left: 18.75%;
+right: 18.75%;
+top: calc(50% - 320px/2);
+
+background: #000000;
+
+
+/* primary-tick-marks */
+
+position: absolute;
+left: 10.94%;
+right: 10.94%;
+top: 10.94%;
+bottom: 10.94%;
+
+
+
+/* tick-marks */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+border: 1px solid #BEBEBE;
+
+
+/* main-marks-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Mask-radial-tick-marks-proportional */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* frame-size */
+
+position: absolute;
+width: 384px;
+height: 384px;
+left: 64px;
+top: 64px;
+
+background: #000000;
+
+
+/* outer-circle */
+
+position: absolute;
+height: 384px;
+left: 12.5%;
+right: 12.5%;
+top: calc(50% - 384px/2);
+
+background: #000000;
+
+
+/* inner-circle */
+
+position: absolute;
+height: 328px;
+left: 17.97%;
+right: 17.97%;
+top: calc(50% - 328px/2);
+
+background: #000000;
+
+
+/* main-tick-marks */
+
+position: absolute;
+left: 10.94%;
+right: 10.94%;
+top: 10.94%;
+bottom: 10.94%;
+
+
+
+/* tick-marks */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+border: 1px solid #BEBEBE;
+
+
+/* label-container */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+
+
+/* Labels */
+
+position: absolute;
+left: 20.83%;
+right: 20.83%;
+top: 20.83%;
+bottom: 20.83%;
+
+
+
+/* label-frame-0 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* position-container-top */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: calc(50% - 16px/2 + 0px);
+top: 0px;
+
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-component */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* icon */
+
+display: none;
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 2px;
+gap: 8px;
+
+width: 14px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* value */
+
+width: 10px;
+height: 16px;
+
+/* Instrument/Tick-mark */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 370;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+font-feature-settings: 'ss04' on;
+
+color: #707070;
+font-stretch: 100;
+font-variation-settings: 'CTGR' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* position-container-bottom */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-end;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: calc(50% - 16px/2 + 0px);
+bottom: 0px;
+
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-component */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* icon */
+
+display: none;
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 2px;
+gap: 8px;
+
+width: 11px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* value */
+
+width: 7px;
+height: 16px;
+
+/* Instrument/Tick-mark */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 370;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+font-feature-settings: 'ss04' on;
+
+color: #707070;
+font-stretch: 100;
+font-variation-settings: 'CTGR' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* position-container-right */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 16px;
+height: 16px;
+right: 0px;
+top: calc(50% - 16px/2 - 0px);
+
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-component */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px 2px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 2px;
+gap: 8px;
+
+width: 11px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* value */
+
+width: 7px;
+height: 16px;
+
+/* Instrument/Tick-mark */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 370;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+font-feature-settings: 'ss04' on;
+
+color: #707070;
+font-stretch: 100;
+font-variation-settings: 'CTGR' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* icon */
+
+display: none;
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* position-container-left */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 0px;
+top: calc(50% - 16px/2 - 0px);
+
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-component */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 2px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* icon */
+
+display: none;
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 2px;
+gap: 8px;
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* value */
+
+width: 12px;
+height: 16px;
+
+/* Instrument/Tick-mark */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 370;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+font-feature-settings: 'ss04' on;
+
+color: #707070;
+font-stretch: 100;
+font-variation-settings: 'CTGR' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* North-arrow */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* arrow */
+
+position: absolute;
+width: 34.11px;
+height: 22.43px;
+left: 238.94px;
+top: 70.44px;
+
+background: #BEBEBE;
+
+
+/* Vector 430 */
+
+position: absolute;
+visibility: hidden;
+left: 46.09%;
+right: 46.09%;
+top: 13.48%;
+bottom: 81.05%;
+
+background: #535353;
+border-radius: 2px;
+
+
+/* Vector 431 */
+
+position: absolute;
+left: 46.46%;
+right: 46.46%;
+top: 13.76%;
+bottom: 81.05%;
+
+background: #535353;
+border-radius: 2px;
+
+
+/* Ellipse 76 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 17.97%;
+right: 17.97%;
+top: 17.97%;
+bottom: 17.97%;
+
+background: #FFFFFF;
+border: 8px solid #000000;
+
+
+/* border-inner */
+
+position: absolute;
+visibility: hidden;
+left: 18.75%;
+right: 18.75%;
+top: 18.75%;
+bottom: 18.75%;
+
+/* Instrument/Frame-tertiary-color
+
+For tertiary watch face elements or other dimmed down elements. Not accessible for text.
+*/
+border: 1px solid #D9D9D9;
+
+
+/* wind-histogram */
+
+position: absolute;
+left: 28.12%;
+right: 28.12%;
+top: 28.12%;
+bottom: 28.12%;
+
+
+
+/* Subtract */
+
+position: absolute;
+width: 228px;
+height: 228px;
+left: -2px;
+top: -2px;
+
+background: #FFFFFF;
+
+
+/* Ellipse 100 */
+
+position: absolute;
+left: -0.89%;
+right: -0.89%;
+top: -0.89%;
+bottom: -0.89%;
+
+background: #D9D9D9;
+
+
+/* Ellipse 101 */
+
+position: absolute;
+left: 0.89%;
+right: 0.89%;
+top: 0.89%;
+bottom: 0.89%;
+
+background: #D9D9D9;
+
+
+/* Tick-marks-radial-degree */
+
+position: absolute;
+left: -1.79%;
+right: -1.79%;
+top: -1.79%;
+bottom: -1.79%;
+
+
+
+/* tick-marks */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+border: 1px solid #BEBEBE;
+
+
+/* wind-arrow */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Wind */
+
+position: absolute;
+left: -20.71%;
+right: 20.71%;
+top: -20.71%;
+bottom: 20.71%;
+
+transform: rotate(-45deg);
+
+
+/* Icon-container */
+
+position: absolute;
+left: 44.75%;
+right: 45.88%;
+top: 44.75%;
+bottom: 45.88%;
+
+transform: rotate(-45deg);
+
+
+/* Outliner */
+
+position: absolute;
+width: 16.67px;
+height: 40px;
+left: 16.26px;
+top: 11.55px;
+
+background: #535353;
+border: 1px solid #F7F7F7;
+transform: rotate(-45deg);
+
+
+/* wind-7 */
+
+position: absolute;
+left: 11.79%;
+right: 4.88%;
+top: 11.79%;
+bottom: 4.88%;
+
+transform: rotate(135deg);
+
+
+/* icon */
+
+position: absolute;
+left: 26.52%;
+right: 31.82%;
+top: 14.73%;
+bottom: -14.73%;
+
+background: #1F1F1F;
+transform: rotate(135deg);
+
+
+/* vessel-container */
+
+position: absolute;
+left: -11.24%;
+right: 11.24%;
+top: -11.24%;
+bottom: 11.24%;
+
+transform: rotate(15deg);
+
+
+/* Vessel */
+
+position: absolute;
+left: 42.1%;
+right: 26.65%;
+top: 42.1%;
+bottom: 26.65%;
+
+transform: rotate(15deg);
+
+
+/* Vessel */
+
+position: absolute;
+left: 6.12%;
+right: 3.88%;
+top: 6.12%;
+bottom: 3.88%;
+
+transform: rotate(15deg);
+
+
+/* Vector 488 */
+
+position: absolute;
+left: 39.83%;
+right: -36.7%;
+top: 11.35%;
+bottom: 69.9%;
+
+background: #FFFFFF;
+border: 1px solid #8E8E8E;
+transform: rotate(-75deg);
+
+
+/* Vector 489 */
+
+position: absolute;
+left: 38.15%;
+right: 44.66%;
+top: 87.88%;
+bottom: -10.1%;
+
+background: #FFFFFF;
+border: 1px solid #8E8E8E;
+transform: rotate(-75deg);
+
+
+/* Rectangle 1 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 67.14%;
+right: 21.75%;
+top: 20.45%;
+bottom: 75.38%;
+
+background: #8E8E8E;
+border: 1px solid #8E8E8E;
+transform: rotate(75deg);
+
+
+/* Rectangle 2 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 62.82%;
+right: 26.07%;
+top: 36.55%;
+bottom: 59.28%;
+
+background: #8E8E8E;
+border: 1px solid #8E8E8E;
+transform: rotate(75deg);
+
+
+/* Rectangle 3 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 58.51%;
+right: 30.38%;
+top: 52.65%;
+bottom: 43.19%;
+
+background: #8E8E8E;
+border: 1px solid #8E8E8E;
+transform: rotate(75deg);
+
+
+/* Rectangle 4 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 54.19%;
+right: 34.69%;
+top: 68.75%;
+bottom: 27.09%;
+
+background: #8E8E8E;
+border: 1px solid #8E8E8E;
+transform: rotate(75deg);
+
+
+/* label-spacer */
+
+display: none;
+width: 20px;
+height: 20px;
+
+background: #F0F0F0;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* label-spacer */
+
+display: none;
+width: 20px;
+height: 20px;
+
+background: #F0F0F0;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Type=Histogram, Priority=Enhanced */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 384px;
+height: 384px;
+left: 528px;
+top: 45px;
+
+
+
+/* label-spacer */
+
+display: none;
+width: 20px;
+height: 20px;
+
+background: #F0F0F0;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* spacer-vertical */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 384px;
+height: 384px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* label-spacer */
+
+display: none;
+width: 20px;
+height: 20px;
+
+background: #F0F0F0;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* instrument-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 384px;
+height: 384px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* visual-target */
+
+width: 384px;
+height: 384px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* instrument */
+
+position: absolute;
+left: -16.67%;
+right: -16.67%;
+top: -16.67%;
+bottom: -16.67%;
+
+
+
+/* watch-face-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Watch-face */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* frame-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Frame */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* scale */
+
+position: absolute;
+left: 13.28%;
+right: 13.28%;
+top: 13.28%;
+bottom: 13.28%;
+
+background: #FFFFFF;
+border: 1px solid #FFFFFF;
+
+
+/* track */
+
+position: absolute;
+left: 17.97%;
+right: 17.97%;
+top: 17.97%;
+bottom: 17.97%;
+
+background: #F0F0F0;
+border: 1px solid #F0F0F0;
+
+
+/* outline */
+
+position: absolute;
+left: 13.28%;
+right: 13.28%;
+top: 13.28%;
+bottom: 13.28%;
+
+border: 1px solid #BEBEBE;
+
+
+/* cross-hair-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* outline */
+
+position: absolute;
+left: 13.28%;
+right: 13.28%;
+top: 13.28%;
+bottom: 13.28%;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+
+
+/* Cross-hair */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* horizontal */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 50%;
+bottom: 50%;
+
+border: 1px solid #BEBEBE;
+
+
+/* vertical */
+
+position: absolute;
+left: 50%;
+right: -50%;
+top: 0%;
+bottom: 100%;
+
+border: 1px solid #BEBEBE;
+transform: rotate(90deg);
+
+
+/* cross-hair-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* label-circle */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 28.12%;
+right: 28.12%;
+top: 28.12%;
+bottom: 28.12%;
+
+background: #FFFFFF;
+border: 20px solid #000000;
+
+
+/* Cross-hair */
+
+position: absolute;
+left: 17.97%;
+right: 17.97%;
+top: 17.97%;
+bottom: 17.97%;
+
+
+
+/* horizontal */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 50%;
+bottom: 50%;
+
+border: 1px solid #BEBEBE;
+
+
+/* vertical */
+
+position: absolute;
+left: 50%;
+right: -50%;
+top: 0%;
+bottom: 100%;
+
+border: 1px solid #BEBEBE;
+transform: rotate(90deg);
+
+
+/* scale-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Scale-mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* scale */
+
+position: absolute;
+left: 13.28%;
+right: 13.28%;
+top: 13.28%;
+bottom: 13.28%;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+
+
+/* Scale */
+
+position: absolute;
+width: 512px;
+left: calc(50% - 512px/2);
+top: 0%;
+bottom: 0%;
+
+
+
+/* secondary-marks-container */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* primary-marks-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Mask-radial-tick-marks-proportional */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* frame-size */
+
+position: absolute;
+width: 368px;
+height: 368px;
+left: 72px;
+top: 72px;
+
+background: #000000;
+
+
+/* outer-circle */
+
+position: absolute;
+height: 368px;
+left: 14.06%;
+right: 14.06%;
+top: calc(50% - 368px/2);
+
+background: #000000;
+
+
+/* inner-circle */
+
+position: absolute;
+height: 320px;
+left: 18.75%;
+right: 18.75%;
+top: calc(50% - 320px/2);
+
+background: #000000;
+
+
+/* primary-tick-marks */
+
+position: absolute;
+left: 10.94%;
+right: 10.94%;
+top: 10.94%;
+bottom: 10.94%;
+
+
+
+/* tick-marks */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+border: 1px solid #BEBEBE;
+
+
+/* main-marks-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Mask-radial-tick-marks-proportional */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* frame-size */
+
+position: absolute;
+width: 384px;
+height: 384px;
+left: 64px;
+top: 64px;
+
+background: #000000;
+
+
+/* outer-circle */
+
+position: absolute;
+height: 384px;
+left: 12.5%;
+right: 12.5%;
+top: calc(50% - 384px/2);
+
+background: #000000;
+
+
+/* inner-circle */
+
+position: absolute;
+height: 328px;
+left: 17.97%;
+right: 17.97%;
+top: calc(50% - 328px/2);
+
+background: #000000;
+
+
+/* main-tick-marks */
+
+position: absolute;
+left: 10.94%;
+right: 10.94%;
+top: 10.94%;
+bottom: 10.94%;
+
+
+
+/* tick-marks */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+border: 1px solid #BEBEBE;
+
+
+/* label-container */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+
+
+/* Labels */
+
+position: absolute;
+left: 20.83%;
+right: 20.83%;
+top: 20.83%;
+bottom: 20.83%;
+
+
+
+/* label-frame-0 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* position-container-top */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: calc(50% - 16px/2 + 0px);
+top: 0px;
+
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-component */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* icon */
+
+display: none;
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 2px;
+gap: 8px;
+
+width: 14px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* value */
+
+width: 10px;
+height: 16px;
+
+/* Instrument/Tick-mark */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 370;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+font-feature-settings: 'ss04' on;
+
+color: #707070;
+font-stretch: 100;
+font-variation-settings: 'CTGR' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* position-container-bottom */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-end;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: calc(50% - 16px/2 + 0px);
+bottom: 0px;
+
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-component */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* icon */
+
+display: none;
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 2px;
+gap: 8px;
+
+width: 11px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* value */
+
+width: 7px;
+height: 16px;
+
+/* Instrument/Tick-mark */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 370;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+font-feature-settings: 'ss04' on;
+
+color: #707070;
+font-stretch: 100;
+font-variation-settings: 'CTGR' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* position-container-right */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 16px;
+height: 16px;
+right: 0px;
+top: calc(50% - 16px/2 - 0px);
+
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-component */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px 2px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 2px;
+gap: 8px;
+
+width: 11px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* value */
+
+width: 7px;
+height: 16px;
+
+/* Instrument/Tick-mark */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 370;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+font-feature-settings: 'ss04' on;
+
+color: #707070;
+font-stretch: 100;
+font-variation-settings: 'CTGR' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* icon */
+
+display: none;
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* position-container-left */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 0px;
+top: calc(50% - 16px/2 - 0px);
+
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-component */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 2px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* icon */
+
+display: none;
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 2px;
+gap: 8px;
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* value */
+
+width: 12px;
+height: 16px;
+
+/* Instrument/Tick-mark */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 370;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+font-feature-settings: 'ss04' on;
+
+color: #707070;
+font-stretch: 100;
+font-variation-settings: 'CTGR' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* North-arrow */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* arrow */
+
+position: absolute;
+width: 34.11px;
+height: 22.43px;
+left: 238.94px;
+top: 70.44px;
+
+background: #BEBEBE;
+
+
+/* Vector 430 */
+
+position: absolute;
+visibility: hidden;
+left: 46.09%;
+right: 46.09%;
+top: 13.48%;
+bottom: 81.05%;
+
+background: #535353;
+border-radius: 2px;
+
+
+/* Vector 431 */
+
+position: absolute;
+left: 46.46%;
+right: 46.46%;
+top: 13.76%;
+bottom: 81.05%;
+
+background: #535353;
+border-radius: 2px;
+
+
+/* Ellipse 76 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 17.97%;
+right: 17.97%;
+top: 17.97%;
+bottom: 17.97%;
+
+background: #FFFFFF;
+border: 8px solid #000000;
+
+
+/* border-inner */
+
+position: absolute;
+visibility: hidden;
+left: 18.75%;
+right: 18.75%;
+top: 18.75%;
+bottom: 18.75%;
+
+/* Instrument/Frame-tertiary-color
+
+For tertiary watch face elements or other dimmed down elements. Not accessible for text.
+*/
+border: 1px solid #D9D9D9;
+
+
+/* wind-histogram */
+
+position: absolute;
+left: 28.12%;
+right: 28.12%;
+top: 28.12%;
+bottom: 28.12%;
+
+
+
+/* Subtract */
+
+position: absolute;
+width: 228px;
+height: 228px;
+left: -2px;
+top: -2px;
+
+background: #FFFFFF;
+
+
+/* Ellipse 100 */
+
+position: absolute;
+left: -0.89%;
+right: -0.89%;
+top: -0.89%;
+bottom: -0.89%;
+
+background: #D9D9D9;
+
+
+/* Ellipse 101 */
+
+position: absolute;
+left: 0.89%;
+right: 0.89%;
+top: 0.89%;
+bottom: 0.89%;
+
+background: #D9D9D9;
+
+
+/* Tick-marks-radial-degree */
+
+position: absolute;
+left: -1.79%;
+right: -1.79%;
+top: -1.79%;
+bottom: -1.79%;
+
+
+
+/* tick-marks */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+border: 1px solid #9CC1F5;
+
+
+/* wind-arrow */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Wind */
+
+position: absolute;
+left: -20.71%;
+right: 20.71%;
+top: -20.71%;
+bottom: 20.71%;
+
+transform: rotate(-45deg);
+
+
+/* Icon-container */
+
+position: absolute;
+left: 44.75%;
+right: 45.88%;
+top: 44.75%;
+bottom: 45.88%;
+
+transform: rotate(-45deg);
+
+
+/* Outliner */
+
+position: absolute;
+width: 16.67px;
+height: 40px;
+left: 16.26px;
+top: 11.55px;
+
+background: #2D548B;
+border: 1px solid #F7F7F7;
+transform: rotate(-45deg);
+
+
+/* wind-7 */
+
+position: absolute;
+left: 11.79%;
+right: 4.88%;
+top: 11.79%;
+bottom: 4.88%;
+
+transform: rotate(135deg);
+
+
+/* icon */
+
+position: absolute;
+left: 26.52%;
+right: 31.82%;
+top: 14.73%;
+bottom: -14.73%;
+
+background: #1F1F1F;
+transform: rotate(135deg);
+
+
+/* vessel-container */
+
+position: absolute;
+left: -11.24%;
+right: 11.24%;
+top: -11.24%;
+bottom: 11.24%;
+
+transform: rotate(15deg);
+
+
+/* Vessel */
+
+position: absolute;
+left: 42.1%;
+right: 26.65%;
+top: 42.1%;
+bottom: 26.65%;
+
+transform: rotate(15deg);
+
+
+/* Vessel */
+
+position: absolute;
+left: 6.12%;
+right: 3.88%;
+top: 6.12%;
+bottom: 3.88%;
+
+transform: rotate(15deg);
+
+
+/* Vector 488 */
+
+position: absolute;
+left: 39.83%;
+right: -36.7%;
+top: 11.35%;
+bottom: 69.9%;
+
+background: #FFFFFF;
+border: 1px solid #8E8E8E;
+transform: rotate(-75deg);
+
+
+/* Vector 489 */
+
+position: absolute;
+left: 38.15%;
+right: 44.66%;
+top: 87.88%;
+bottom: -10.1%;
+
+background: #FFFFFF;
+border: 1px solid #8E8E8E;
+transform: rotate(-75deg);
+
+
+/* Rectangle 1 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 67.14%;
+right: 21.75%;
+top: 20.45%;
+bottom: 75.38%;
+
+background: #8E8E8E;
+border: 1px solid #8E8E8E;
+transform: rotate(75deg);
+
+
+/* Rectangle 2 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 62.82%;
+right: 26.07%;
+top: 36.55%;
+bottom: 59.28%;
+
+background: #8E8E8E;
+border: 1px solid #8E8E8E;
+transform: rotate(75deg);
+
+
+/* Rectangle 3 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 58.51%;
+right: 30.38%;
+top: 52.65%;
+bottom: 43.19%;
+
+background: #8E8E8E;
+border: 1px solid #8E8E8E;
+transform: rotate(75deg);
+
+
+/* Rectangle 4 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 54.19%;
+right: 34.69%;
+top: 68.75%;
+bottom: 27.09%;
+
+background: #8E8E8E;
+border: 1px solid #8E8E8E;
+transform: rotate(75deg);
+
+
+/* label-spacer */
+
+display: none;
+width: 20px;
+height: 20px;
+
+background: #F0F0F0;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* label-spacer */
+
+display: none;
+width: 20px;
+height: 20px;
+
+background: #F0F0F0;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Type=Wind direction, Priority=Regular */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 384px;
+height: 384px;
+left: 48px;
+top: 1005px;
+
+
+
+/* label-spacer */
+
+display: none;
+width: 20px;
+height: 20px;
+
+background: #F0F0F0;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* spacer-vertical */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 384px;
+height: 384px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* label-spacer */
+
+display: none;
+width: 20px;
+height: 20px;
+
+background: #F0F0F0;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* instrument-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 384px;
+height: 384px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* visual-target */
+
+width: 384px;
+height: 384px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* instrument */
+
+position: absolute;
+left: -16.67%;
+right: -16.67%;
+top: -16.67%;
+bottom: -16.67%;
+
+
+
+/* wind-histogram */
+
+position: absolute;
+left: 17.97%;
+right: 17.97%;
+top: 17.97%;
+bottom: 17.97%;
+
+
+
+/* Wind */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* center-mask */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #FFFFFF;
+border: 2px solid #000000;
+
+
+/* wind-force-pattern */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* wind-force-pattern */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* background */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #BEBEBE;
+
+
+/* watch-face-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Watch-face */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* frame-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Frame */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* scale */
+
+position: absolute;
+left: 13.28%;
+right: 13.28%;
+top: 13.28%;
+bottom: 13.28%;
+
+background: #FFFFFF;
+border: 1px solid #FFFFFF;
+
+
+/* outline */
+
+position: absolute;
+left: 13.28%;
+right: 13.28%;
+top: 13.28%;
+bottom: 13.28%;
+
+border: 1px solid #BEBEBE;
+
+
+/* cross-hair-container */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* cross-hair-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* circle */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 18.75%;
+right: 18.75%;
+top: 18.75%;
+bottom: 18.75%;
+
+background: #FFFFFF;
+border: 20px solid #000000;
+
+
+/* Cross-hair */
+
+position: absolute;
+left: 17.97%;
+right: 17.97%;
+top: 17.97%;
+bottom: 17.97%;
+
+
+
+/* horizontal */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 50%;
+bottom: 50%;
+
+border: 1px solid #BEBEBE;
+
+
+/* vertical */
+
+position: absolute;
+left: 50%;
+right: -50%;
+top: 0%;
+bottom: 100%;
+
+border: 1px solid #BEBEBE;
+transform: rotate(90deg);
+
+
+/* scale-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Scale-mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* scale */
+
+position: absolute;
+left: 13.28%;
+right: 13.28%;
+top: 13.28%;
+bottom: 13.28%;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+
+
+/* Scale */
+
+position: absolute;
+width: 512px;
+left: calc(50% - 512px/2);
+top: 0%;
+bottom: 0%;
+
+
+
+/* secondary-marks-container */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* primary-marks-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Mask-radial-tick-marks-proportional */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* frame-size */
+
+position: absolute;
+width: 368px;
+height: 368px;
+left: 72px;
+top: 72px;
+
+background: #000000;
+
+
+/* outer-circle */
+
+position: absolute;
+height: 368px;
+left: 14.06%;
+right: 14.06%;
+top: calc(50% - 368px/2);
+
+background: #000000;
+
+
+/* inner-circle */
+
+position: absolute;
+height: 320px;
+left: 18.75%;
+right: 18.75%;
+top: calc(50% - 320px/2);
+
+background: #000000;
+
+
+/* primary-tick-marks */
+
+position: absolute;
+left: 10.94%;
+right: 10.94%;
+top: 10.94%;
+bottom: 10.94%;
+
+
+
+/* tick-marks */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+border: 1px solid #BEBEBE;
+
+
+/* main-marks-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Mask-radial-tick-marks-proportional */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* frame-size */
+
+position: absolute;
+width: 384px;
+height: 384px;
+left: 64px;
+top: 64px;
+
+background: #000000;
+
+
+/* outer-circle */
+
+position: absolute;
+height: 384px;
+left: 12.5%;
+right: 12.5%;
+top: calc(50% - 384px/2);
+
+background: #000000;
+
+
+/* inner-circle */
+
+position: absolute;
+height: 328px;
+left: 17.97%;
+right: 17.97%;
+top: calc(50% - 328px/2);
+
+background: #000000;
+
+
+/* main-tick-marks */
+
+position: absolute;
+left: 10.94%;
+right: 10.94%;
+top: 10.94%;
+bottom: 10.94%;
+
+
+
+/* tick-marks */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+border: 1px solid #BEBEBE;
+
+
+/* label-container */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+
+
+/* Labels */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+
+
+/* label-frame-0 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* position-container-top */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: calc(50% - 16px/2 + 0px);
+top: 0px;
+
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-component */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* icon */
+
+display: none;
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 2px;
+gap: 8px;
+
+width: 14px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* value */
+
+width: 10px;
+height: 16px;
+
+/* Instrument/Tick-mark */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 370;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+font-feature-settings: 'ss04' on;
+
+color: #707070;
+font-stretch: 100;
+font-variation-settings: 'CTGR' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* position-container-bottom */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-end;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: calc(50% - 16px/2 + 0px);
+bottom: 0px;
+
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-component */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* icon */
+
+display: none;
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 2px;
+gap: 8px;
+
+width: 11px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* value */
+
+width: 7px;
+height: 16px;
+
+/* Instrument/Tick-mark */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 370;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+font-feature-settings: 'ss04' on;
+
+color: #707070;
+font-stretch: 100;
+font-variation-settings: 'CTGR' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* position-container-right */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 16px;
+height: 16px;
+right: 0px;
+top: calc(50% - 16px/2 - 0px);
+
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-component */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px 2px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 2px;
+gap: 8px;
+
+width: 11px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* value */
+
+width: 7px;
+height: 16px;
+
+/* Instrument/Tick-mark */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 370;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+font-feature-settings: 'ss04' on;
+
+color: #707070;
+font-stretch: 100;
+font-variation-settings: 'CTGR' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* icon */
+
+display: none;
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* position-container-left */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 0px;
+top: calc(50% - 16px/2 - 0px);
+
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-component */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 2px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* icon */
+
+display: none;
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 2px;
+gap: 8px;
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* value */
+
+width: 12px;
+height: 16px;
+
+/* Instrument/Tick-mark */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 370;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+font-feature-settings: 'ss04' on;
+
+color: #707070;
+font-stretch: 100;
+font-variation-settings: 'CTGR' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* North-arrow */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* arrow */
+
+position: absolute;
+width: 34.11px;
+height: 22.43px;
+left: 238.94px;
+top: 70.44px;
+
+background: #BEBEBE;
+
+
+/* Vector 430 */
+
+position: absolute;
+visibility: hidden;
+left: 46.09%;
+right: 46.09%;
+top: 13.48%;
+bottom: 81.05%;
+
+background: #535353;
+border-radius: 2px;
+
+
+/* Vector 431 */
+
+position: absolute;
+left: 46.46%;
+right: 46.46%;
+top: 13.76%;
+bottom: 81.05%;
+
+background: #535353;
+border-radius: 2px;
+
+
+/* Ellipse 76 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 17.97%;
+right: 17.97%;
+top: 17.97%;
+bottom: 17.97%;
+
+background: #FFFFFF;
+border: 8px solid #000000;
+
+
+/* border-inner */
+
+position: absolute;
+visibility: hidden;
+left: 18.75%;
+right: 18.75%;
+top: 18.75%;
+bottom: 18.75%;
+
+/* Instrument/Frame-tertiary-color
+
+For tertiary watch face elements or other dimmed down elements. Not accessible for text.
+*/
+border: 1px solid #D9D9D9;
+
+
+/* wind-arrow */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Icon-container */
+
+position: absolute;
+left: 26.8%;
+right: 40.39%;
+top: 26.8%;
+bottom: 40.39%;
+
+transform: rotate(-45deg);
+
+
+/* Outliner */
+
+position: absolute;
+width: 58.33px;
+height: 140px;
+left: 56.92px;
+top: 40.42px;
+
+background: #535353;
+border: 1px solid #F7F7F7;
+transform: rotate(-45deg);
+
+
+/* wind-7 */
+
+position: absolute;
+left: 11.79%;
+right: 4.88%;
+top: 11.79%;
+bottom: 4.88%;
+
+transform: rotate(135deg);
+
+
+/* icon */
+
+position: absolute;
+left: 26.52%;
+right: 31.82%;
+top: 14.73%;
+bottom: -14.73%;
+
+background: #1F1F1F;
+transform: rotate(135deg);
+
+
+/* label-spacer */
+
+display: none;
+width: 20px;
+height: 20px;
+
+background: #F0F0F0;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* label-spacer */
+
+display: none;
+width: 20px;
+height: 20px;
+
+background: #F0F0F0;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Type=Wind direction, Priority=Enhanced */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 384px;
+height: 384px;
+left: 528px;
+top: 1005px;
+
+
+
+/* label-spacer */
+
+display: none;
+width: 20px;
+height: 20px;
+
+background: #F0F0F0;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* spacer-vertical */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 384px;
+height: 384px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* label-spacer */
+
+display: none;
+width: 20px;
+height: 20px;
+
+background: #F0F0F0;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* instrument-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 384px;
+height: 384px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* visual-target */
+
+width: 384px;
+height: 384px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* instrument */
+
+position: absolute;
+left: -16.67%;
+right: -16.67%;
+top: -16.67%;
+bottom: -16.67%;
+
+
+
+/* wind-histogram */
+
+position: absolute;
+left: 17.97%;
+right: 17.97%;
+top: 17.97%;
+bottom: 17.97%;
+
+
+
+/* Wind */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* center-mask */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #FFFFFF;
+border: 2px solid #000000;
+
+
+/* wind-force-pattern */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* wind-force-pattern */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* background */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #9CC1F5;
+
+
+/* watch-face-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Watch-face */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* frame-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Frame */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* scale */
+
+position: absolute;
+left: 13.28%;
+right: 13.28%;
+top: 13.28%;
+bottom: 13.28%;
+
+background: #FFFFFF;
+border: 1px solid #FFFFFF;
+
+
+/* outline */
+
+position: absolute;
+left: 13.28%;
+right: 13.28%;
+top: 13.28%;
+bottom: 13.28%;
+
+border: 1px solid #BEBEBE;
+
+
+/* cross-hair-container */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* cross-hair-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* circle */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 18.75%;
+right: 18.75%;
+top: 18.75%;
+bottom: 18.75%;
+
+background: #FFFFFF;
+border: 20px solid #000000;
+
+
+/* Cross-hair */
+
+position: absolute;
+left: 17.97%;
+right: 17.97%;
+top: 17.97%;
+bottom: 17.97%;
+
+
+
+/* horizontal */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 50%;
+bottom: 50%;
+
+border: 1px solid #BEBEBE;
+
+
+/* vertical */
+
+position: absolute;
+left: 50%;
+right: -50%;
+top: 0%;
+bottom: 100%;
+
+border: 1px solid #BEBEBE;
+transform: rotate(90deg);
+
+
+/* scale-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Scale-mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* scale */
+
+position: absolute;
+left: 13.28%;
+right: 13.28%;
+top: 13.28%;
+bottom: 13.28%;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+
+
+/* Scale */
+
+position: absolute;
+width: 512px;
+left: calc(50% - 512px/2);
+top: 0%;
+bottom: 0%;
+
+
+
+/* secondary-marks-container */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* primary-marks-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Mask-radial-tick-marks-proportional */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* frame-size */
+
+position: absolute;
+width: 368px;
+height: 368px;
+left: 72px;
+top: 72px;
+
+background: #000000;
+
+
+/* outer-circle */
+
+position: absolute;
+height: 368px;
+left: 14.06%;
+right: 14.06%;
+top: calc(50% - 368px/2);
+
+background: #000000;
+
+
+/* inner-circle */
+
+position: absolute;
+height: 320px;
+left: 18.75%;
+right: 18.75%;
+top: calc(50% - 320px/2);
+
+background: #000000;
+
+
+/* primary-tick-marks */
+
+position: absolute;
+left: 10.94%;
+right: 10.94%;
+top: 10.94%;
+bottom: 10.94%;
+
+
+
+/* tick-marks */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+border: 1px solid #BEBEBE;
+
+
+/* main-marks-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Mask-radial-tick-marks-proportional */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* frame-size */
+
+position: absolute;
+width: 384px;
+height: 384px;
+left: 64px;
+top: 64px;
+
+background: #000000;
+
+
+/* outer-circle */
+
+position: absolute;
+height: 384px;
+left: 12.5%;
+right: 12.5%;
+top: calc(50% - 384px/2);
+
+background: #000000;
+
+
+/* inner-circle */
+
+position: absolute;
+height: 328px;
+left: 17.97%;
+right: 17.97%;
+top: calc(50% - 328px/2);
+
+background: #000000;
+
+
+/* main-tick-marks */
+
+position: absolute;
+left: 10.94%;
+right: 10.94%;
+top: 10.94%;
+bottom: 10.94%;
+
+
+
+/* tick-marks */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+border: 1px solid #BEBEBE;
+
+
+/* label-container */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+
+
+/* Labels */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+
+
+/* label-frame-0 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* position-container-top */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: calc(50% - 16px/2 + 0px);
+top: 0px;
+
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-component */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* icon */
+
+display: none;
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 2px;
+gap: 8px;
+
+width: 14px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* value */
+
+width: 10px;
+height: 16px;
+
+/* Instrument/Tick-mark */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 370;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+font-feature-settings: 'ss04' on;
+
+color: #707070;
+font-stretch: 100;
+font-variation-settings: 'CTGR' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* position-container-bottom */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-end;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: calc(50% - 16px/2 + 0px);
+bottom: 0px;
+
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-component */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* icon */
+
+display: none;
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 2px;
+gap: 8px;
+
+width: 11px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* value */
+
+width: 7px;
+height: 16px;
+
+/* Instrument/Tick-mark */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 370;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+font-feature-settings: 'ss04' on;
+
+color: #707070;
+font-stretch: 100;
+font-variation-settings: 'CTGR' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* position-container-right */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 16px;
+height: 16px;
+right: 0px;
+top: calc(50% - 16px/2 - 0px);
+
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-component */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px 2px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 2px;
+gap: 8px;
+
+width: 11px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* value */
+
+width: 7px;
+height: 16px;
+
+/* Instrument/Tick-mark */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 370;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+font-feature-settings: 'ss04' on;
+
+color: #707070;
+font-stretch: 100;
+font-variation-settings: 'CTGR' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* icon */
+
+display: none;
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* position-container-left */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 0px;
+top: calc(50% - 16px/2 - 0px);
+
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-component */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 2px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* icon */
+
+display: none;
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 2px;
+gap: 8px;
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* value */
+
+width: 12px;
+height: 16px;
+
+/* Instrument/Tick-mark */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 370;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+font-feature-settings: 'ss04' on;
+
+color: #707070;
+font-stretch: 100;
+font-variation-settings: 'CTGR' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* North-arrow */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* arrow */
+
+position: absolute;
+width: 34.11px;
+height: 22.43px;
+left: 238.94px;
+top: 70.44px;
+
+background: #BEBEBE;
+
+
+/* Vector 430 */
+
+position: absolute;
+visibility: hidden;
+left: 46.09%;
+right: 46.09%;
+top: 13.48%;
+bottom: 81.05%;
+
+background: #535353;
+border-radius: 2px;
+
+
+/* Vector 431 */
+
+position: absolute;
+left: 46.46%;
+right: 46.46%;
+top: 13.76%;
+bottom: 81.05%;
+
+background: #535353;
+border-radius: 2px;
+
+
+/* Ellipse 76 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 17.97%;
+right: 17.97%;
+top: 17.97%;
+bottom: 17.97%;
+
+background: #FFFFFF;
+border: 8px solid #000000;
+
+
+/* border-inner */
+
+position: absolute;
+visibility: hidden;
+left: 18.75%;
+right: 18.75%;
+top: 18.75%;
+bottom: 18.75%;
+
+/* Instrument/Frame-tertiary-color
+
+For tertiary watch face elements or other dimmed down elements. Not accessible for text.
+*/
+border: 1px solid #D9D9D9;
+
+
+/* wind-arrow */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Icon-container */
+
+position: absolute;
+left: 26.8%;
+right: 40.39%;
+top: 26.8%;
+bottom: 40.39%;
+
+transform: rotate(-45deg);
+
+
+/* Outliner */
+
+position: absolute;
+width: 58.33px;
+height: 140px;
+left: 56.92px;
+top: 40.42px;
+
+background: #2D548B;
+border: 1px solid #F7F7F7;
+transform: rotate(-45deg);
+
+
+/* wind-7 */
+
+position: absolute;
+left: 11.79%;
+right: 4.88%;
+top: 11.79%;
+bottom: 4.88%;
+
+transform: rotate(135deg);
+
+
+/* icon */
+
+position: absolute;
+left: 26.52%;
+right: 31.82%;
+top: 14.73%;
+bottom: -14.73%;
+
+background: #1F1F1F;
+transform: rotate(135deg);
+
+
+/* label-spacer */
+
+display: none;
+width: 20px;
+height: 20px;
+
+background: #F0F0F0;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* label-spacer */
+
+display: none;
+width: 20px;
+height: 20px;
+
+background: #F0F0F0;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Type=Wind force, Priority=Regular */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 384px;
+height: 384px;
+left: 48px;
+top: 525px;
+
+
+
+/* label-spacer */
+
+display: none;
+width: 20px;
+height: 20px;
+
+background: #F0F0F0;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* spacer-vertical */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 384px;
+height: 384px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* label-spacer */
+
+display: none;
+width: 20px;
+height: 20px;
+
+background: #F0F0F0;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* instrument-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 384px;
+height: 384px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* visual-target */
+
+width: 384px;
+height: 384px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* instrument */
+
+position: absolute;
+left: -16.67%;
+right: -16.67%;
+top: -16.67%;
+bottom: -16.67%;
+
+
+
+/* wind-histogram */
+
+position: absolute;
+left: 28.12%;
+right: 28.12%;
+top: 28.12%;
+bottom: 28.12%;
+
+
+
+/* Wind */
+
+position: absolute;
+width: 232px;
+height: 232px;
+left: calc(50% - 232px/2);
+top: calc(50% - 232px/2);
+
+
+
+/* center-mask */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #FFFFFF;
+border: 2px solid #000000;
+
+
+/* wind-force-pattern */
+
+position: absolute;
+left: 1.72%;
+right: 1.72%;
+top: 1.72%;
+bottom: 1.72%;
+
+
+
+/* wind-force-pattern */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* background */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #BEBEBE;
+
+
+/* watch-face-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Watch-face */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* frame-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Frame */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* scale */
+
+position: absolute;
+left: 13.28%;
+right: 13.28%;
+top: 13.28%;
+bottom: 13.28%;
+
+background: #FFFFFF;
+border: 1px solid #FFFFFF;
+
+
+/* track */
+
+position: absolute;
+left: 17.97%;
+right: 17.97%;
+top: 17.97%;
+bottom: 17.97%;
+
+background: #F0F0F0;
+border: 1px solid #F0F0F0;
+
+
+/* outline */
+
+position: absolute;
+left: 13.28%;
+right: 13.28%;
+top: 13.28%;
+bottom: 13.28%;
+
+border: 1px solid #BEBEBE;
+
+
+/* cross-hair-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* outline */
+
+position: absolute;
+left: 13.28%;
+right: 13.28%;
+top: 13.28%;
+bottom: 13.28%;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+
+
+/* Cross-hair */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* horizontal */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 50%;
+bottom: 50%;
+
+border: 1px solid #BEBEBE;
+
+
+/* vertical */
+
+position: absolute;
+left: 50%;
+right: -50%;
+top: 0%;
+bottom: 100%;
+
+border: 1px solid #BEBEBE;
+transform: rotate(90deg);
+
+
+/* cross-hair-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* label-circle */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 28.12%;
+right: 28.12%;
+top: 28.12%;
+bottom: 28.12%;
+
+background: #FFFFFF;
+border: 20px solid #000000;
+
+
+/* Cross-hair */
+
+position: absolute;
+left: 17.97%;
+right: 17.97%;
+top: 17.97%;
+bottom: 17.97%;
+
+
+
+/* horizontal */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 50%;
+bottom: 50%;
+
+border: 1px solid #BEBEBE;
+
+
+/* vertical */
+
+position: absolute;
+left: 50%;
+right: -50%;
+top: 0%;
+bottom: 100%;
+
+border: 1px solid #BEBEBE;
+transform: rotate(90deg);
+
+
+/* scale-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Scale-mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* scale */
+
+position: absolute;
+left: 13.28%;
+right: 13.28%;
+top: 13.28%;
+bottom: 13.28%;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+
+
+/* Scale */
+
+position: absolute;
+width: 512px;
+left: calc(50% - 512px/2);
+top: 0%;
+bottom: 0%;
+
+
+
+/* secondary-marks-container */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* primary-marks-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Mask-radial-tick-marks-proportional */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* frame-size */
+
+position: absolute;
+width: 368px;
+height: 368px;
+left: 72px;
+top: 72px;
+
+background: #000000;
+
+
+/* outer-circle */
+
+position: absolute;
+height: 368px;
+left: 14.06%;
+right: 14.06%;
+top: calc(50% - 368px/2);
+
+background: #000000;
+
+
+/* inner-circle */
+
+position: absolute;
+height: 320px;
+left: 18.75%;
+right: 18.75%;
+top: calc(50% - 320px/2);
+
+background: #000000;
+
+
+/* primary-tick-marks */
+
+position: absolute;
+left: 10.94%;
+right: 10.94%;
+top: 10.94%;
+bottom: 10.94%;
+
+
+
+/* tick-marks */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+border: 1px solid #BEBEBE;
+
+
+/* main-marks-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Mask-radial-tick-marks-proportional */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* frame-size */
+
+position: absolute;
+width: 384px;
+height: 384px;
+left: 64px;
+top: 64px;
+
+background: #000000;
+
+
+/* outer-circle */
+
+position: absolute;
+height: 384px;
+left: 12.5%;
+right: 12.5%;
+top: calc(50% - 384px/2);
+
+background: #000000;
+
+
+/* inner-circle */
+
+position: absolute;
+height: 328px;
+left: 17.97%;
+right: 17.97%;
+top: calc(50% - 328px/2);
+
+background: #000000;
+
+
+/* main-tick-marks */
+
+position: absolute;
+left: 10.94%;
+right: 10.94%;
+top: 10.94%;
+bottom: 10.94%;
+
+
+
+/* tick-marks */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+border: 1px solid #BEBEBE;
+
+
+/* label-container */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+
+
+/* Labels */
+
+position: absolute;
+left: 20.83%;
+right: 20.83%;
+top: 20.83%;
+bottom: 20.83%;
+
+
+
+/* label-frame-0 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* position-container-top */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: calc(50% - 16px/2 + 0px);
+top: 0px;
+
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-component */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* icon */
+
+display: none;
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 2px;
+gap: 8px;
+
+width: 14px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* value */
+
+width: 10px;
+height: 16px;
+
+/* Instrument/Tick-mark */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 370;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+font-feature-settings: 'ss04' on;
+
+color: #707070;
+font-stretch: 100;
+font-variation-settings: 'CTGR' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* position-container-bottom */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-end;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: calc(50% - 16px/2 + 0px);
+bottom: 0px;
+
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-component */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* icon */
+
+display: none;
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 2px;
+gap: 8px;
+
+width: 11px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* value */
+
+width: 7px;
+height: 16px;
+
+/* Instrument/Tick-mark */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 370;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+font-feature-settings: 'ss04' on;
+
+color: #707070;
+font-stretch: 100;
+font-variation-settings: 'CTGR' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* position-container-right */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 16px;
+height: 16px;
+right: 0px;
+top: calc(50% - 16px/2 - 0px);
+
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-component */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px 2px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 2px;
+gap: 8px;
+
+width: 11px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* value */
+
+width: 7px;
+height: 16px;
+
+/* Instrument/Tick-mark */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 370;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+font-feature-settings: 'ss04' on;
+
+color: #707070;
+font-stretch: 100;
+font-variation-settings: 'CTGR' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* icon */
+
+display: none;
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* position-container-left */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 0px;
+top: calc(50% - 16px/2 - 0px);
+
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-component */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 2px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* icon */
+
+display: none;
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 2px;
+gap: 8px;
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* value */
+
+width: 12px;
+height: 16px;
+
+/* Instrument/Tick-mark */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 370;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+font-feature-settings: 'ss04' on;
+
+color: #707070;
+font-stretch: 100;
+font-variation-settings: 'CTGR' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* North-arrow */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* arrow */
+
+position: absolute;
+width: 34.11px;
+height: 22.43px;
+left: 238.94px;
+top: 70.44px;
+
+background: #BEBEBE;
+
+
+/* Vector 430 */
+
+position: absolute;
+visibility: hidden;
+left: 46.09%;
+right: 46.09%;
+top: 13.48%;
+bottom: 81.05%;
+
+background: #535353;
+border-radius: 2px;
+
+
+/* Vector 431 */
+
+position: absolute;
+left: 46.46%;
+right: 46.46%;
+top: 13.76%;
+bottom: 81.05%;
+
+background: #535353;
+border-radius: 2px;
+
+
+/* Ellipse 76 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 17.97%;
+right: 17.97%;
+top: 17.97%;
+bottom: 17.97%;
+
+background: #FFFFFF;
+border: 8px solid #000000;
+
+
+/* border-inner */
+
+position: absolute;
+visibility: hidden;
+left: 18.75%;
+right: 18.75%;
+top: 18.75%;
+bottom: 18.75%;
+
+/* Instrument/Frame-tertiary-color
+
+For tertiary watch face elements or other dimmed down elements. Not accessible for text.
+*/
+border: 1px solid #D9D9D9;
+
+
+/* wind-arrow */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Wind */
+
+position: absolute;
+left: -20.71%;
+right: 20.71%;
+top: -20.71%;
+bottom: 20.71%;
+
+transform: rotate(-45deg);
+
+
+/* Icon-container */
+
+position: absolute;
+left: 44.75%;
+right: 45.88%;
+top: 44.75%;
+bottom: 45.88%;
+
+transform: rotate(-45deg);
+
+
+/* Outliner */
+
+position: absolute;
+width: 16.67px;
+height: 40px;
+left: 16.26px;
+top: 11.55px;
+
+background: #535353;
+border: 1px solid #F7F7F7;
+transform: rotate(-45deg);
+
+
+/* wind-7 */
+
+position: absolute;
+left: 11.79%;
+right: 4.88%;
+top: 11.79%;
+bottom: 4.88%;
+
+transform: rotate(135deg);
+
+
+/* icon */
+
+position: absolute;
+left: 26.52%;
+right: 31.82%;
+top: 14.73%;
+bottom: -14.73%;
+
+background: #1F1F1F;
+transform: rotate(135deg);
+
+
+/* vessel-container */
+
+position: absolute;
+left: -11.24%;
+right: 11.24%;
+top: -11.24%;
+bottom: 11.24%;
+
+transform: rotate(15deg);
+
+
+/* Vessel */
+
+position: absolute;
+left: 42.1%;
+right: 26.65%;
+top: 42.1%;
+bottom: 26.65%;
+
+transform: rotate(15deg);
+
+
+/* Vessel */
+
+position: absolute;
+left: 6.12%;
+right: 3.88%;
+top: 6.12%;
+bottom: 3.88%;
+
+transform: rotate(15deg);
+
+
+/* Vector 488 */
+
+position: absolute;
+left: 39.83%;
+right: -36.7%;
+top: 11.35%;
+bottom: 69.9%;
+
+background: #FFFFFF;
+border: 1px solid #8E8E8E;
+transform: rotate(-75deg);
+
+
+/* Vector 489 */
+
+position: absolute;
+left: 38.15%;
+right: 44.66%;
+top: 87.88%;
+bottom: -10.1%;
+
+background: #FFFFFF;
+border: 1px solid #8E8E8E;
+transform: rotate(-75deg);
+
+
+/* Rectangle 1 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 67.14%;
+right: 21.75%;
+top: 20.45%;
+bottom: 75.38%;
+
+background: #8E8E8E;
+border: 1px solid #8E8E8E;
+transform: rotate(75deg);
+
+
+/* Rectangle 2 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 62.82%;
+right: 26.07%;
+top: 36.55%;
+bottom: 59.28%;
+
+background: #8E8E8E;
+border: 1px solid #8E8E8E;
+transform: rotate(75deg);
+
+
+/* Rectangle 3 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 58.51%;
+right: 30.38%;
+top: 52.65%;
+bottom: 43.19%;
+
+background: #8E8E8E;
+border: 1px solid #8E8E8E;
+transform: rotate(75deg);
+
+
+/* Rectangle 4 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 54.19%;
+right: 34.69%;
+top: 68.75%;
+bottom: 27.09%;
+
+background: #8E8E8E;
+border: 1px solid #8E8E8E;
+transform: rotate(75deg);
+
+
+/* label-spacer */
+
+display: none;
+width: 20px;
+height: 20px;
+
+background: #F0F0F0;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* label-spacer */
+
+display: none;
+width: 20px;
+height: 20px;
+
+background: #F0F0F0;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Type=Wind force, Priority=Enhanced */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 384px;
+height: 384px;
+left: 528px;
+top: 525px;
+
+
+
+/* label-spacer */
+
+display: none;
+width: 20px;
+height: 20px;
+
+background: #F0F0F0;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* spacer-vertical */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 384px;
+height: 384px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* label-spacer */
+
+display: none;
+width: 20px;
+height: 20px;
+
+background: #F0F0F0;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* instrument-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 384px;
+height: 384px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* visual-target */
+
+width: 384px;
+height: 384px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* instrument */
+
+position: absolute;
+left: -16.67%;
+right: -16.67%;
+top: -16.67%;
+bottom: -16.67%;
+
+
+
+/* wind-histogram */
+
+position: absolute;
+left: 28.12%;
+right: 28.12%;
+top: 28.12%;
+bottom: 28.12%;
+
+
+
+/* Wind */
+
+position: absolute;
+width: 232px;
+height: 232px;
+left: calc(50% - 232px/2);
+top: calc(50% - 232px/2);
+
+
+
+/* center-mask */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #FFFFFF;
+border: 2px solid #000000;
+
+
+/* wind-force-pattern */
+
+position: absolute;
+left: 1.72%;
+right: 1.72%;
+top: 1.72%;
+bottom: 1.72%;
+
+
+
+/* wind-force-pattern */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* background */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #9CC1F5;
+
+
+/* watch-face-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Watch-face */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* frame-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Frame */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* scale */
+
+position: absolute;
+left: 13.28%;
+right: 13.28%;
+top: 13.28%;
+bottom: 13.28%;
+
+background: #FFFFFF;
+border: 1px solid #FFFFFF;
+
+
+/* track */
+
+position: absolute;
+left: 17.97%;
+right: 17.97%;
+top: 17.97%;
+bottom: 17.97%;
+
+background: #F0F0F0;
+border: 1px solid #F0F0F0;
+
+
+/* outline */
+
+position: absolute;
+left: 13.28%;
+right: 13.28%;
+top: 13.28%;
+bottom: 13.28%;
+
+border: 1px solid #BEBEBE;
+
+
+/* cross-hair-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* outline */
+
+position: absolute;
+left: 13.28%;
+right: 13.28%;
+top: 13.28%;
+bottom: 13.28%;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+
+
+/* Cross-hair */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* horizontal */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 50%;
+bottom: 50%;
+
+border: 1px solid #BEBEBE;
+
+
+/* vertical */
+
+position: absolute;
+left: 50%;
+right: -50%;
+top: 0%;
+bottom: 100%;
+
+border: 1px solid #BEBEBE;
+transform: rotate(90deg);
+
+
+/* cross-hair-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* label-circle */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 28.12%;
+right: 28.12%;
+top: 28.12%;
+bottom: 28.12%;
+
+background: #FFFFFF;
+border: 20px solid #000000;
+
+
+/* Cross-hair */
+
+position: absolute;
+left: 17.97%;
+right: 17.97%;
+top: 17.97%;
+bottom: 17.97%;
+
+
+
+/* horizontal */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 50%;
+bottom: 50%;
+
+border: 1px solid #BEBEBE;
+
+
+/* vertical */
+
+position: absolute;
+left: 50%;
+right: -50%;
+top: 0%;
+bottom: 100%;
+
+border: 1px solid #BEBEBE;
+transform: rotate(90deg);
+
+
+/* scale-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Scale-mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* scale */
+
+position: absolute;
+left: 13.28%;
+right: 13.28%;
+top: 13.28%;
+bottom: 13.28%;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+
+
+/* Scale */
+
+position: absolute;
+width: 512px;
+left: calc(50% - 512px/2);
+top: 0%;
+bottom: 0%;
+
+
+
+/* secondary-marks-container */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* primary-marks-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Mask-radial-tick-marks-proportional */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* frame-size */
+
+position: absolute;
+width: 368px;
+height: 368px;
+left: 72px;
+top: 72px;
+
+background: #000000;
+
+
+/* outer-circle */
+
+position: absolute;
+height: 368px;
+left: 14.06%;
+right: 14.06%;
+top: calc(50% - 368px/2);
+
+background: #000000;
+
+
+/* inner-circle */
+
+position: absolute;
+height: 320px;
+left: 18.75%;
+right: 18.75%;
+top: calc(50% - 320px/2);
+
+background: #000000;
+
+
+/* primary-tick-marks */
+
+position: absolute;
+left: 10.94%;
+right: 10.94%;
+top: 10.94%;
+bottom: 10.94%;
+
+
+
+/* tick-marks */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+border: 1px solid #BEBEBE;
+
+
+/* main-marks-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Mask-radial-tick-marks-proportional */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* frame-size */
+
+position: absolute;
+width: 384px;
+height: 384px;
+left: 64px;
+top: 64px;
+
+background: #000000;
+
+
+/* outer-circle */
+
+position: absolute;
+height: 384px;
+left: 12.5%;
+right: 12.5%;
+top: calc(50% - 384px/2);
+
+background: #000000;
+
+
+/* inner-circle */
+
+position: absolute;
+height: 328px;
+left: 17.97%;
+right: 17.97%;
+top: calc(50% - 328px/2);
+
+background: #000000;
+
+
+/* main-tick-marks */
+
+position: absolute;
+left: 10.94%;
+right: 10.94%;
+top: 10.94%;
+bottom: 10.94%;
+
+
+
+/* tick-marks */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+border: 1px solid #BEBEBE;
+
+
+/* label-container */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+
+
+/* Labels */
+
+position: absolute;
+left: 20.83%;
+right: 20.83%;
+top: 20.83%;
+bottom: 20.83%;
+
+
+
+/* label-frame-0 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* position-container-top */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: calc(50% - 16px/2 + 0px);
+top: 0px;
+
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-component */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* icon */
+
+display: none;
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 2px;
+gap: 8px;
+
+width: 14px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* value */
+
+width: 10px;
+height: 16px;
+
+/* Instrument/Tick-mark */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 370;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+font-feature-settings: 'ss04' on;
+
+color: #707070;
+font-stretch: 100;
+font-variation-settings: 'CTGR' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* position-container-bottom */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-end;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: calc(50% - 16px/2 + 0px);
+bottom: 0px;
+
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-component */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* icon */
+
+display: none;
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 2px;
+gap: 8px;
+
+width: 11px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* value */
+
+width: 7px;
+height: 16px;
+
+/* Instrument/Tick-mark */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 370;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+font-feature-settings: 'ss04' on;
+
+color: #707070;
+font-stretch: 100;
+font-variation-settings: 'CTGR' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* position-container-right */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 16px;
+height: 16px;
+right: 0px;
+top: calc(50% - 16px/2 - 0px);
+
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-component */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px 2px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 2px;
+gap: 8px;
+
+width: 11px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* value */
+
+width: 7px;
+height: 16px;
+
+/* Instrument/Tick-mark */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 370;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+font-feature-settings: 'ss04' on;
+
+color: #707070;
+font-stretch: 100;
+font-variation-settings: 'CTGR' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* icon */
+
+display: none;
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* position-container-left */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 0px;
+top: calc(50% - 16px/2 - 0px);
+
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-component */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 2px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* icon */
+
+display: none;
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 2px;
+gap: 8px;
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* value */
+
+width: 12px;
+height: 16px;
+
+/* Instrument/Tick-mark */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 370;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+font-feature-settings: 'ss04' on;
+
+color: #707070;
+font-stretch: 100;
+font-variation-settings: 'CTGR' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* North-arrow */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* arrow */
+
+position: absolute;
+width: 34.11px;
+height: 22.43px;
+left: 238.94px;
+top: 70.44px;
+
+background: #BEBEBE;
+
+
+/* Vector 430 */
+
+position: absolute;
+visibility: hidden;
+left: 46.09%;
+right: 46.09%;
+top: 13.48%;
+bottom: 81.05%;
+
+background: #535353;
+border-radius: 2px;
+
+
+/* Vector 431 */
+
+position: absolute;
+left: 46.46%;
+right: 46.46%;
+top: 13.76%;
+bottom: 81.05%;
+
+background: #535353;
+border-radius: 2px;
+
+
+/* Ellipse 76 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 17.97%;
+right: 17.97%;
+top: 17.97%;
+bottom: 17.97%;
+
+background: #FFFFFF;
+border: 8px solid #000000;
+
+
+/* border-inner */
+
+position: absolute;
+visibility: hidden;
+left: 18.75%;
+right: 18.75%;
+top: 18.75%;
+bottom: 18.75%;
+
+/* Instrument/Frame-tertiary-color
+
+For tertiary watch face elements or other dimmed down elements. Not accessible for text.
+*/
+border: 1px solid #D9D9D9;
+
+
+/* wind-arrow */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Wind */
+
+position: absolute;
+left: -20.71%;
+right: 20.71%;
+top: -20.71%;
+bottom: 20.71%;
+
+transform: rotate(-45deg);
+
+
+/* Icon-container */
+
+position: absolute;
+left: 44.75%;
+right: 45.88%;
+top: 44.75%;
+bottom: 45.88%;
+
+transform: rotate(-45deg);
+
+
+/* Outliner */
+
+position: absolute;
+width: 16.67px;
+height: 40px;
+left: 16.26px;
+top: 11.55px;
+
+background: #2D548B;
+border: 1px solid #F7F7F7;
+transform: rotate(-45deg);
+
+
+/* wind-7 */
+
+position: absolute;
+left: 11.79%;
+right: 4.88%;
+top: 11.79%;
+bottom: 4.88%;
+
+transform: rotate(135deg);
+
+
+/* icon */
+
+position: absolute;
+left: 26.52%;
+right: 31.82%;
+top: 14.73%;
+bottom: -14.73%;
+
+background: #1F1F1F;
+transform: rotate(135deg);
+
+
+/* vessel-container */
+
+position: absolute;
+left: -11.24%;
+right: 11.24%;
+top: -11.24%;
+bottom: 11.24%;
+
+transform: rotate(15deg);
+
+
+/* Vessel */
+
+position: absolute;
+left: 42.1%;
+right: 26.65%;
+top: 42.1%;
+bottom: 26.65%;
+
+transform: rotate(15deg);
+
+
+/* Vessel */
+
+position: absolute;
+left: 6.12%;
+right: 3.88%;
+top: 6.12%;
+bottom: 3.88%;
+
+transform: rotate(15deg);
+
+
+/* Vector 488 */
+
+position: absolute;
+left: 39.83%;
+right: -36.7%;
+top: 11.35%;
+bottom: 69.9%;
+
+background: #FFFFFF;
+border: 1px solid #8E8E8E;
+transform: rotate(-75deg);
+
+
+/* Vector 489 */
+
+position: absolute;
+left: 38.15%;
+right: 44.66%;
+top: 87.88%;
+bottom: -10.1%;
+
+background: #FFFFFF;
+border: 1px solid #8E8E8E;
+transform: rotate(-75deg);
+
+
+/* Rectangle 1 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 67.14%;
+right: 21.75%;
+top: 20.45%;
+bottom: 75.38%;
+
+background: #8E8E8E;
+border: 1px solid #8E8E8E;
+transform: rotate(75deg);
+
+
+/* Rectangle 2 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 62.82%;
+right: 26.07%;
+top: 36.55%;
+bottom: 59.28%;
+
+background: #8E8E8E;
+border: 1px solid #8E8E8E;
+transform: rotate(75deg);
+
+
+/* Rectangle 3 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 58.51%;
+right: 30.38%;
+top: 52.65%;
+bottom: 43.19%;
+
+background: #8E8E8E;
+border: 1px solid #8E8E8E;
+transform: rotate(75deg);
+
+
+/* Rectangle 4 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 54.19%;
+right: 34.69%;
+top: 68.75%;
+bottom: 27.09%;
+
+background: #8E8E8E;
+border: 1px solid #8E8E8E;
+transform: rotate(75deg);
+
+
+/* label-spacer */
+
+display: none;
+width: 20px;
+height: 20px;
+
+background: #F0F0F0;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* label-spacer */
+
+display: none;
+width: 20px;
+height: 20px;
+
+background: #F0F0F0;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Current */
+
+box-sizing: border-box;
+
+position: relative;
+width: 1016px;
+height: 1661px;
+left: 1176px;
+top: 408px;
+
+background: #F7F7F7;
+border: 1px dashed #9747FF;
+border-radius: 4px;
+
+
+/* Type=Direction, Priority=Regular */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 384px;
+height: 384px;
+left: 48px;
+top: 540px;
+
+
+
+/* label-spacer */
+
+display: none;
+width: 20px;
+height: 20px;
+
+background: #F0F0F0;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* spacer-vertical */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 384px;
+height: 384px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* label-spacer */
+
+display: none;
+width: 20px;
+height: 20px;
+
+background: #F0F0F0;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* instrument-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 384px;
+height: 384px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* visual-target */
+
+width: 384px;
+height: 384px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* instrument */
+
+position: absolute;
+left: -16.67%;
+right: -16.67%;
+top: -16.67%;
+bottom: -16.67%;
+
+
+
+/* wind-histogram */
+
+position: absolute;
+left: 17.97%;
+right: 17.97%;
+top: 17.97%;
+bottom: 17.97%;
+
+
+
+/* current-pattern */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* center-mask */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #FFFFFF;
+border: 2px solid #000000;
+
+
+/* current-force-pattern */
+
+position: absolute;
+left: -28.3%;
+right: 13.66%;
+top: -28.3%;
+bottom: 13.66%;
+
+transform: rotate(-30deg);
+
+
+/* wind-force-pattern */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+transform: rotate(-30deg);
+
+
+/* background */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #BEBEBE;
+transform: rotate(-30deg);
+
+
+/* watch-face-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Watch-face */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* frame-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Frame */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* scale */
+
+position: absolute;
+left: 13.28%;
+right: 13.28%;
+top: 13.28%;
+bottom: 13.28%;
+
+background: #FFFFFF;
+border: 1px solid #FFFFFF;
+
+
+/* outline */
+
+position: absolute;
+left: 13.28%;
+right: 13.28%;
+top: 13.28%;
+bottom: 13.28%;
+
+border: 1px solid #BEBEBE;
+
+
+/* cross-hair-container */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* cross-hair-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* circle */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 18.75%;
+right: 18.75%;
+top: 18.75%;
+bottom: 18.75%;
+
+background: #FFFFFF;
+border: 20px solid #000000;
+
+
+/* Cross-hair */
+
+position: absolute;
+left: 17.97%;
+right: 17.97%;
+top: 17.97%;
+bottom: 17.97%;
+
+
+
+/* horizontal */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 50%;
+bottom: 50%;
+
+border: 1px solid #BEBEBE;
+
+
+/* vertical */
+
+position: absolute;
+left: 50%;
+right: -50%;
+top: 0%;
+bottom: 100%;
+
+border: 1px solid #BEBEBE;
+transform: rotate(90deg);
+
+
+/* scale-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Scale-mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* scale */
+
+position: absolute;
+left: 13.28%;
+right: 13.28%;
+top: 13.28%;
+bottom: 13.28%;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+
+
+/* Scale */
+
+position: absolute;
+width: 512px;
+left: calc(50% - 512px/2);
+top: 0%;
+bottom: 0%;
+
+
+
+/* secondary-marks-container */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* primary-marks-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Mask-radial-tick-marks-proportional */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* frame-size */
+
+position: absolute;
+width: 368px;
+height: 368px;
+left: 72px;
+top: 72px;
+
+background: #000000;
+
+
+/* outer-circle */
+
+position: absolute;
+height: 368px;
+left: 14.06%;
+right: 14.06%;
+top: calc(50% - 368px/2);
+
+background: #000000;
+
+
+/* inner-circle */
+
+position: absolute;
+height: 320px;
+left: 18.75%;
+right: 18.75%;
+top: calc(50% - 320px/2);
+
+background: #000000;
+
+
+/* primary-tick-marks */
+
+position: absolute;
+left: 10.94%;
+right: 10.94%;
+top: 10.94%;
+bottom: 10.94%;
+
+
+
+/* tick-marks */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+border: 1px solid #BEBEBE;
+
+
+/* main-marks-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Mask-radial-tick-marks-proportional */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* frame-size */
+
+position: absolute;
+width: 384px;
+height: 384px;
+left: 64px;
+top: 64px;
+
+background: #000000;
+
+
+/* outer-circle */
+
+position: absolute;
+height: 384px;
+left: 12.5%;
+right: 12.5%;
+top: calc(50% - 384px/2);
+
+background: #000000;
+
+
+/* inner-circle */
+
+position: absolute;
+height: 328px;
+left: 17.97%;
+right: 17.97%;
+top: calc(50% - 328px/2);
+
+background: #000000;
+
+
+/* main-tick-marks */
+
+position: absolute;
+left: 10.94%;
+right: 10.94%;
+top: 10.94%;
+bottom: 10.94%;
+
+
+
+/* tick-marks */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+border: 1px solid #BEBEBE;
+
+
+/* label-container */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+
+
+/* Labels */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+
+
+/* label-frame-0 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* position-container-top */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: calc(50% - 16px/2 + 0px);
+top: 0px;
+
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-component */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* icon */
+
+display: none;
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 2px;
+gap: 8px;
+
+width: 14px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* value */
+
+width: 10px;
+height: 16px;
+
+/* Instrument/Tick-mark */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 370;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+font-feature-settings: 'ss04' on;
+
+color: #707070;
+font-stretch: 100;
+font-variation-settings: 'CTGR' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* position-container-bottom */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-end;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: calc(50% - 16px/2 + 0px);
+bottom: 0px;
+
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-component */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* icon */
+
+display: none;
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 2px;
+gap: 8px;
+
+width: 11px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* value */
+
+width: 7px;
+height: 16px;
+
+/* Instrument/Tick-mark */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 370;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+font-feature-settings: 'ss04' on;
+
+color: #707070;
+font-stretch: 100;
+font-variation-settings: 'CTGR' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* position-container-right */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 16px;
+height: 16px;
+right: 0px;
+top: calc(50% - 16px/2 - 0px);
+
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-component */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px 2px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 2px;
+gap: 8px;
+
+width: 11px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* value */
+
+width: 7px;
+height: 16px;
+
+/* Instrument/Tick-mark */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 370;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+font-feature-settings: 'ss04' on;
+
+color: #707070;
+font-stretch: 100;
+font-variation-settings: 'CTGR' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* icon */
+
+display: none;
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* position-container-left */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 0px;
+top: calc(50% - 16px/2 - 0px);
+
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-component */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 2px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* icon */
+
+display: none;
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 2px;
+gap: 8px;
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* value */
+
+width: 12px;
+height: 16px;
+
+/* Instrument/Tick-mark */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 370;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+font-feature-settings: 'ss04' on;
+
+color: #707070;
+font-stretch: 100;
+font-variation-settings: 'CTGR' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* North-arrow */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* arrow */
+
+position: absolute;
+width: 34.11px;
+height: 22.43px;
+left: 238.94px;
+top: 70.44px;
+
+background: #BEBEBE;
+
+
+/* Vector 430 */
+
+position: absolute;
+visibility: hidden;
+left: 46.09%;
+right: 46.09%;
+top: 13.48%;
+bottom: 81.05%;
+
+background: #535353;
+border-radius: 2px;
+
+
+/* Vector 431 */
+
+position: absolute;
+left: 46.46%;
+right: 46.46%;
+top: 13.76%;
+bottom: 81.05%;
+
+background: #535353;
+border-radius: 2px;
+
+
+/* Ellipse 76 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 17.97%;
+right: 17.97%;
+top: 17.97%;
+bottom: 17.97%;
+
+background: #FFFFFF;
+border: 8px solid #000000;
+
+
+/* border-inner */
+
+position: absolute;
+visibility: hidden;
+left: 18.75%;
+right: 18.75%;
+top: 18.75%;
+bottom: 18.75%;
+
+/* Instrument/Frame-tertiary-color
+
+For tertiary watch face elements or other dimmed down elements. Not accessible for text.
+*/
+border: 1px solid #D9D9D9;
+
+
+/* wind-arrow */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Icon-container */
+
+position: absolute;
+left: 27.59%;
+right: 39.6%;
+top: 27.59%;
+bottom: 39.6%;
+
+transform: rotate(-30deg);
+
+
+/* Outliner */
+
+position: absolute;
+width: 61.96px;
+height: 140px;
+left: 52.39px;
+top: 38.94px;
+
+background: #535353;
+border: 4px solid #F7F7F7;
+transform: rotate(-30deg);
+
+
+/* current-3 */
+
+position: absolute;
+left: 11.38%;
+right: 5.28%;
+top: 11.38%;
+bottom: 5.28%;
+
+transform: rotate(150deg);
+
+
+/* icon */
+
+position: absolute;
+left: 23.76%;
+right: 31.98%;
+top: 14.15%;
+bottom: -14.15%;
+
+background: #1F1F1F;
+transform: rotate(150deg);
+
+
+/* label-spacer */
+
+display: none;
+width: 20px;
+height: 20px;
+
+background: #F0F0F0;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* label-spacer */
+
+display: none;
+width: 20px;
+height: 20px;
+
+background: #F0F0F0;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Type=Direction, Priority=Enhanced */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 384px;
+height: 384px;
+left: 528px;
+top: 540px;
+
+
+
+/* label-spacer */
+
+display: none;
+width: 20px;
+height: 20px;
+
+background: #F0F0F0;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* spacer-vertical */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 384px;
+height: 384px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* label-spacer */
+
+display: none;
+width: 20px;
+height: 20px;
+
+background: #F0F0F0;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* instrument-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 384px;
+height: 384px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* visual-target */
+
+width: 384px;
+height: 384px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* instrument */
+
+position: absolute;
+left: -16.67%;
+right: -16.67%;
+top: -16.67%;
+bottom: -16.67%;
+
+
+
+/* wind-histogram */
+
+position: absolute;
+left: 17.97%;
+right: 17.97%;
+top: 17.97%;
+bottom: 17.97%;
+
+
+
+/* current-pattern */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* center-mask */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #FFFFFF;
+border: 2px solid #000000;
+
+
+/* current-force-pattern */
+
+position: absolute;
+left: -28.3%;
+right: 13.66%;
+top: -28.3%;
+bottom: 13.66%;
+
+transform: rotate(-30deg);
+
+
+/* wind-force-pattern */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+transform: rotate(-30deg);
+
+
+/* background */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #9CC1F5;
+transform: rotate(-30deg);
+
+
+/* watch-face-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Watch-face */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* frame-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Frame */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* scale */
+
+position: absolute;
+left: 13.28%;
+right: 13.28%;
+top: 13.28%;
+bottom: 13.28%;
+
+background: #FFFFFF;
+border: 1px solid #FFFFFF;
+
+
+/* outline */
+
+position: absolute;
+left: 13.28%;
+right: 13.28%;
+top: 13.28%;
+bottom: 13.28%;
+
+border: 1px solid #BEBEBE;
+
+
+/* cross-hair-container */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* cross-hair-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* circle */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 18.75%;
+right: 18.75%;
+top: 18.75%;
+bottom: 18.75%;
+
+background: #FFFFFF;
+border: 20px solid #000000;
+
+
+/* Cross-hair */
+
+position: absolute;
+left: 17.97%;
+right: 17.97%;
+top: 17.97%;
+bottom: 17.97%;
+
+
+
+/* horizontal */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 50%;
+bottom: 50%;
+
+border: 1px solid #BEBEBE;
+
+
+/* vertical */
+
+position: absolute;
+left: 50%;
+right: -50%;
+top: 0%;
+bottom: 100%;
+
+border: 1px solid #BEBEBE;
+transform: rotate(90deg);
+
+
+/* scale-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Scale-mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* scale */
+
+position: absolute;
+left: 13.28%;
+right: 13.28%;
+top: 13.28%;
+bottom: 13.28%;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+
+
+/* Scale */
+
+position: absolute;
+width: 512px;
+left: calc(50% - 512px/2);
+top: 0%;
+bottom: 0%;
+
+
+
+/* secondary-marks-container */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* primary-marks-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Mask-radial-tick-marks-proportional */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* frame-size */
+
+position: absolute;
+width: 368px;
+height: 368px;
+left: 72px;
+top: 72px;
+
+background: #000000;
+
+
+/* outer-circle */
+
+position: absolute;
+height: 368px;
+left: 14.06%;
+right: 14.06%;
+top: calc(50% - 368px/2);
+
+background: #000000;
+
+
+/* inner-circle */
+
+position: absolute;
+height: 320px;
+left: 18.75%;
+right: 18.75%;
+top: calc(50% - 320px/2);
+
+background: #000000;
+
+
+/* primary-tick-marks */
+
+position: absolute;
+left: 10.94%;
+right: 10.94%;
+top: 10.94%;
+bottom: 10.94%;
+
+
+
+/* tick-marks */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+border: 1px solid #BEBEBE;
+
+
+/* main-marks-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Mask-radial-tick-marks-proportional */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* frame-size */
+
+position: absolute;
+width: 384px;
+height: 384px;
+left: 64px;
+top: 64px;
+
+background: #000000;
+
+
+/* outer-circle */
+
+position: absolute;
+height: 384px;
+left: 12.5%;
+right: 12.5%;
+top: calc(50% - 384px/2);
+
+background: #000000;
+
+
+/* inner-circle */
+
+position: absolute;
+height: 328px;
+left: 17.97%;
+right: 17.97%;
+top: calc(50% - 328px/2);
+
+background: #000000;
+
+
+/* main-tick-marks */
+
+position: absolute;
+left: 10.94%;
+right: 10.94%;
+top: 10.94%;
+bottom: 10.94%;
+
+
+
+/* tick-marks */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+border: 1px solid #BEBEBE;
+
+
+/* label-container */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+
+
+/* Labels */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+
+
+/* label-frame-0 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* position-container-top */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: calc(50% - 16px/2 + 0px);
+top: 0px;
+
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-component */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* icon */
+
+display: none;
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 2px;
+gap: 8px;
+
+width: 14px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* value */
+
+width: 10px;
+height: 16px;
+
+/* Instrument/Tick-mark */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 370;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+font-feature-settings: 'ss04' on;
+
+color: #707070;
+font-stretch: 100;
+font-variation-settings: 'CTGR' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* position-container-bottom */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-end;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: calc(50% - 16px/2 + 0px);
+bottom: 0px;
+
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-component */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* icon */
+
+display: none;
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 2px;
+gap: 8px;
+
+width: 11px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* value */
+
+width: 7px;
+height: 16px;
+
+/* Instrument/Tick-mark */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 370;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+font-feature-settings: 'ss04' on;
+
+color: #707070;
+font-stretch: 100;
+font-variation-settings: 'CTGR' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* position-container-right */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 16px;
+height: 16px;
+right: 0px;
+top: calc(50% - 16px/2 - 0px);
+
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-component */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px 2px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 2px;
+gap: 8px;
+
+width: 11px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* value */
+
+width: 7px;
+height: 16px;
+
+/* Instrument/Tick-mark */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 370;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+font-feature-settings: 'ss04' on;
+
+color: #707070;
+font-stretch: 100;
+font-variation-settings: 'CTGR' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* icon */
+
+display: none;
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* position-container-left */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 0px;
+top: calc(50% - 16px/2 - 0px);
+
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-component */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 2px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* icon */
+
+display: none;
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 2px;
+gap: 8px;
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* value */
+
+width: 12px;
+height: 16px;
+
+/* Instrument/Tick-mark */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 370;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+font-feature-settings: 'ss04' on;
+
+color: #707070;
+font-stretch: 100;
+font-variation-settings: 'CTGR' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* North-arrow */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* arrow */
+
+position: absolute;
+width: 34.11px;
+height: 22.43px;
+left: 238.94px;
+top: 70.44px;
+
+background: #BEBEBE;
+
+
+/* Vector 430 */
+
+position: absolute;
+visibility: hidden;
+left: 46.09%;
+right: 46.09%;
+top: 13.48%;
+bottom: 81.05%;
+
+background: #535353;
+border-radius: 2px;
+
+
+/* Vector 431 */
+
+position: absolute;
+left: 46.46%;
+right: 46.46%;
+top: 13.76%;
+bottom: 81.05%;
+
+background: #535353;
+border-radius: 2px;
+
+
+/* Ellipse 76 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 17.97%;
+right: 17.97%;
+top: 17.97%;
+bottom: 17.97%;
+
+background: #FFFFFF;
+border: 8px solid #000000;
+
+
+/* border-inner */
+
+position: absolute;
+visibility: hidden;
+left: 18.75%;
+right: 18.75%;
+top: 18.75%;
+bottom: 18.75%;
+
+/* Instrument/Frame-tertiary-color
+
+For tertiary watch face elements or other dimmed down elements. Not accessible for text.
+*/
+border: 1px solid #D9D9D9;
+
+
+/* wind-arrow */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Icon-container */
+
+position: absolute;
+left: 27.59%;
+right: 39.6%;
+top: 27.59%;
+bottom: 39.6%;
+
+transform: rotate(-30deg);
+
+
+/* Outliner */
+
+position: absolute;
+width: 61.96px;
+height: 140px;
+left: 52.4px;
+top: 38.94px;
+
+background: #2D548B;
+border: 4px solid #F7F7F7;
+transform: rotate(-30deg);
+
+
+/* current-3 */
+
+position: absolute;
+left: 11.38%;
+right: 5.28%;
+top: 11.38%;
+bottom: 5.28%;
+
+transform: rotate(150deg);
+
+
+/* icon */
+
+position: absolute;
+left: 23.76%;
+right: 31.98%;
+top: 14.15%;
+bottom: -14.15%;
+
+background: #1F1F1F;
+transform: rotate(150deg);
+
+
+/* label-spacer */
+
+display: none;
+width: 20px;
+height: 20px;
+
+background: #F0F0F0;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* label-spacer */
+
+display: none;
+width: 20px;
+height: 20px;
+
+background: #F0F0F0;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Type=Vessel, Priority=Enhanced */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 384px;
+height: 384px;
+left: 528px;
+top: 60px;
+
+
+
+/* label-spacer */
+
+display: none;
+width: 20px;
+height: 20px;
+
+background: #F0F0F0;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* spacer-vertical */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 384px;
+height: 384px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* label-spacer */
+
+display: none;
+width: 20px;
+height: 20px;
+
+background: #F0F0F0;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* instrument-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 384px;
+height: 384px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* visual-target */
+
+width: 384px;
+height: 384px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* instrument */
+
+position: absolute;
+left: -16.67%;
+right: -16.67%;
+top: -16.67%;
+bottom: -16.67%;
+
+
+
+/* wind-histogram */
+
+position: absolute;
+left: -18.3%;
+right: 18.3%;
+top: -18.3%;
+bottom: 18.3%;
+
+transform: rotate(-30deg);
+
+
+/* current-pattern */
+
+position: absolute;
+left: 37.35%;
+right: 17.34%;
+top: 37.35%;
+bottom: 17.34%;
+
+transform: rotate(-30deg);
+
+
+/* center-mask */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #FFFFFF;
+border: 2px solid #000000;
+transform: rotate(-30deg);
+
+
+/* current-force-pattern */
+
+position: absolute;
+left: -36.51%;
+right: -16.94%;
+top: -36.51%;
+bottom: -16.94%;
+
+transform: rotate(-30deg);
+
+
+/* wind-force-pattern */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+transform: rotate(-30deg);
+
+
+/* background */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #9CC1F5;
+transform: rotate(-30deg);
+
+
+/* watch-face-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Watch-face */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* frame-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Frame */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* scale */
+
+position: absolute;
+left: 13.28%;
+right: 13.28%;
+top: 13.28%;
+bottom: 13.28%;
+
+background: #FFFFFF;
+border: 1px solid #FFFFFF;
+
+
+/* track */
+
+position: absolute;
+left: 17.97%;
+right: 17.97%;
+top: 17.97%;
+bottom: 17.97%;
+
+background: #F0F0F0;
+border: 1px solid #F0F0F0;
+
+
+/* outline */
+
+position: absolute;
+left: 13.28%;
+right: 13.28%;
+top: 13.28%;
+bottom: 13.28%;
+
+border: 1px solid #BEBEBE;
+
+
+/* cross-hair-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* outline */
+
+position: absolute;
+left: 13.28%;
+right: 13.28%;
+top: 13.28%;
+bottom: 13.28%;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+
+
+/* Cross-hair */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* horizontal */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 50%;
+bottom: 50%;
+
+border: 1px solid #BEBEBE;
+
+
+/* vertical */
+
+position: absolute;
+left: 50%;
+right: -50%;
+top: 0%;
+bottom: 100%;
+
+border: 1px solid #BEBEBE;
+transform: rotate(90deg);
+
+
+/* cross-hair-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* label-circle */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 28.12%;
+right: 28.12%;
+top: 28.12%;
+bottom: 28.12%;
+
+background: #FFFFFF;
+border: 20px solid #000000;
+
+
+/* Cross-hair */
+
+position: absolute;
+left: 17.97%;
+right: 17.97%;
+top: 17.97%;
+bottom: 17.97%;
+
+
+
+/* horizontal */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 50%;
+bottom: 50%;
+
+border: 1px solid #BEBEBE;
+
+
+/* vertical */
+
+position: absolute;
+left: 50%;
+right: -50%;
+top: 0%;
+bottom: 100%;
+
+border: 1px solid #BEBEBE;
+transform: rotate(90deg);
+
+
+/* scale-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Scale-mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* scale */
+
+position: absolute;
+left: 13.28%;
+right: 13.28%;
+top: 13.28%;
+bottom: 13.28%;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+
+
+/* Scale */
+
+position: absolute;
+width: 512px;
+left: calc(50% - 512px/2);
+top: 0%;
+bottom: 0%;
+
+
+
+/* secondary-marks-container */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* primary-marks-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Mask-radial-tick-marks-proportional */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* frame-size */
+
+position: absolute;
+width: 368px;
+height: 368px;
+left: 72px;
+top: 72px;
+
+background: #000000;
+
+
+/* outer-circle */
+
+position: absolute;
+height: 368px;
+left: 14.06%;
+right: 14.06%;
+top: calc(50% - 368px/2);
+
+background: #000000;
+
+
+/* inner-circle */
+
+position: absolute;
+height: 320px;
+left: 18.75%;
+right: 18.75%;
+top: calc(50% - 320px/2);
+
+background: #000000;
+
+
+/* primary-tick-marks */
+
+position: absolute;
+left: 10.94%;
+right: 10.94%;
+top: 10.94%;
+bottom: 10.94%;
+
+
+
+/* tick-marks */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+border: 1px solid #BEBEBE;
+
+
+/* main-marks-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Mask-radial-tick-marks-proportional */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* frame-size */
+
+position: absolute;
+width: 384px;
+height: 384px;
+left: 64px;
+top: 64px;
+
+background: #000000;
+
+
+/* outer-circle */
+
+position: absolute;
+height: 384px;
+left: 12.5%;
+right: 12.5%;
+top: calc(50% - 384px/2);
+
+background: #000000;
+
+
+/* inner-circle */
+
+position: absolute;
+height: 328px;
+left: 17.97%;
+right: 17.97%;
+top: calc(50% - 328px/2);
+
+background: #000000;
+
+
+/* main-tick-marks */
+
+position: absolute;
+left: 10.94%;
+right: 10.94%;
+top: 10.94%;
+bottom: 10.94%;
+
+
+
+/* tick-marks */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+border: 1px solid #BEBEBE;
+
+
+/* label-container */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+
+
+/* Labels */
+
+position: absolute;
+left: 20.83%;
+right: 20.83%;
+top: 20.83%;
+bottom: 20.83%;
+
+
+
+/* label-frame-0 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* position-container-top */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: calc(50% - 16px/2 + 0px);
+top: 0px;
+
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-component */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* icon */
+
+display: none;
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 2px;
+gap: 8px;
+
+width: 14px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* value */
+
+width: 10px;
+height: 16px;
+
+/* Instrument/Tick-mark */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 370;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+font-feature-settings: 'ss04' on;
+
+color: #707070;
+font-stretch: 100;
+font-variation-settings: 'CTGR' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* position-container-bottom */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-end;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: calc(50% - 16px/2 + 0px);
+bottom: 0px;
+
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-component */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* icon */
+
+display: none;
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 2px;
+gap: 8px;
+
+width: 11px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* value */
+
+width: 7px;
+height: 16px;
+
+/* Instrument/Tick-mark */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 370;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+font-feature-settings: 'ss04' on;
+
+color: #707070;
+font-stretch: 100;
+font-variation-settings: 'CTGR' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* position-container-right */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 16px;
+height: 16px;
+right: 0px;
+top: calc(50% - 16px/2 - 0px);
+
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-component */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px 2px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 2px;
+gap: 8px;
+
+width: 11px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* value */
+
+width: 7px;
+height: 16px;
+
+/* Instrument/Tick-mark */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 370;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+font-feature-settings: 'ss04' on;
+
+color: #707070;
+font-stretch: 100;
+font-variation-settings: 'CTGR' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* icon */
+
+display: none;
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* position-container-left */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 0px;
+top: calc(50% - 16px/2 - 0px);
+
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-component */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 2px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* icon */
+
+display: none;
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 2px;
+gap: 8px;
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* value */
+
+width: 12px;
+height: 16px;
+
+/* Instrument/Tick-mark */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 370;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+font-feature-settings: 'ss04' on;
+
+color: #707070;
+font-stretch: 100;
+font-variation-settings: 'CTGR' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* North-arrow */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* arrow */
+
+position: absolute;
+width: 34.11px;
+height: 22.43px;
+left: 238.94px;
+top: 70.44px;
+
+background: #BEBEBE;
+
+
+/* Vector 430 */
+
+position: absolute;
+visibility: hidden;
+left: 46.09%;
+right: 46.09%;
+top: 13.48%;
+bottom: 81.05%;
+
+background: #535353;
+border-radius: 2px;
+
+
+/* Vector 431 */
+
+position: absolute;
+left: 46.46%;
+right: 46.46%;
+top: 13.76%;
+bottom: 81.05%;
+
+background: #535353;
+border-radius: 2px;
+
+
+/* Ellipse 76 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 17.97%;
+right: 17.97%;
+top: 17.97%;
+bottom: 17.97%;
+
+background: #FFFFFF;
+border: 8px solid #000000;
+
+
+/* border-inner */
+
+position: absolute;
+visibility: hidden;
+left: 18.75%;
+right: 18.75%;
+top: 18.75%;
+bottom: 18.75%;
+
+/* Instrument/Frame-tertiary-color
+
+For tertiary watch face elements or other dimmed down elements. Not accessible for text.
+*/
+border: 1px solid #D9D9D9;
+
+
+/* wind-arrow */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Current */
+
+position: absolute;
+left: -18.3%;
+right: 18.3%;
+top: -18.3%;
+bottom: 18.3%;
+
+transform: rotate(-30deg);
+
+
+/* Icon-container */
+
+position: absolute;
+left: 48.23%;
+right: 42.4%;
+top: 38.22%;
+bottom: 52.41%;
+
+transform: rotate(-30deg);
+
+
+/* Outliner */
+
+position: absolute;
+width: 17.36px;
+height: 40px;
+left: 15.27px;
+top: 11.12px;
+
+background: #2D548B;
+border: 1px solid #F7F7F7;
+transform: rotate(-30deg);
+
+
+/* 11-current-3 */
+
+position: absolute;
+left: 11.39%;
+right: 5.28%;
+top: 11.38%;
+bottom: 5.29%;
+
+transform: rotate(60deg);
+
+
+/* Icon */
+
+position: absolute;
+left: 24.51%;
+right: -24.51%;
+top: 14.15%;
+bottom: 42.45%;
+
+background: #000000;
+transform: rotate(60deg);
+
+
+/* vessel-container */
+
+position: absolute;
+left: -11.24%;
+right: 11.24%;
+top: -11.24%;
+bottom: 11.24%;
+
+transform: rotate(15deg);
+
+
+/* Vessel */
+
+position: absolute;
+left: 42.1%;
+right: 26.65%;
+top: 42.1%;
+bottom: 26.65%;
+
+transform: rotate(15deg);
+
+
+/* Vessel */
+
+position: absolute;
+left: 6.12%;
+right: 3.88%;
+top: 6.12%;
+bottom: 3.88%;
+
+transform: rotate(15deg);
+
+
+/* Vector 488 */
+
+position: absolute;
+left: 39.83%;
+right: -36.7%;
+top: 11.35%;
+bottom: 69.9%;
+
+background: #FFFFFF;
+border: 1px solid #8E8E8E;
+transform: rotate(-75deg);
+
+
+/* Vector 489 */
+
+position: absolute;
+left: 38.15%;
+right: 44.66%;
+top: 87.88%;
+bottom: -10.1%;
+
+background: #FFFFFF;
+border: 1px solid #8E8E8E;
+transform: rotate(-75deg);
+
+
+/* Rectangle 1 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 67.14%;
+right: 21.75%;
+top: 20.45%;
+bottom: 75.38%;
+
+background: #8E8E8E;
+border: 1px solid #8E8E8E;
+transform: rotate(75deg);
+
+
+/* Rectangle 2 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 62.82%;
+right: 26.07%;
+top: 36.55%;
+bottom: 59.28%;
+
+background: #8E8E8E;
+border: 1px solid #8E8E8E;
+transform: rotate(75deg);
+
+
+/* Rectangle 3 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 58.51%;
+right: 30.38%;
+top: 52.65%;
+bottom: 43.19%;
+
+background: #8E8E8E;
+border: 1px solid #8E8E8E;
+transform: rotate(75deg);
+
+
+/* Rectangle 4 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 54.19%;
+right: 34.69%;
+top: 68.75%;
+bottom: 27.09%;
+
+background: #8E8E8E;
+border: 1px solid #8E8E8E;
+transform: rotate(75deg);
+
+
+/* label-spacer */
+
+display: none;
+width: 20px;
+height: 20px;
+
+background: #F0F0F0;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* label-spacer */
+
+display: none;
+width: 20px;
+height: 20px;
+
+background: #F0F0F0;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Type=Vessel, Priority=Regular */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 384px;
+height: 384px;
+left: 48px;
+top: 60px;
+
+
+
+/* label-spacer */
+
+display: none;
+width: 20px;
+height: 20px;
+
+background: #F0F0F0;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* spacer-vertical */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 384px;
+height: 384px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* label-spacer */
+
+display: none;
+width: 20px;
+height: 20px;
+
+background: #F0F0F0;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* instrument-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 384px;
+height: 384px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* visual-target */
+
+width: 384px;
+height: 384px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* instrument */
+
+position: absolute;
+left: -16.67%;
+right: -16.67%;
+top: -16.67%;
+bottom: -16.67%;
+
+
+
+/* wind-histogram */
+
+position: absolute;
+left: -18.3%;
+right: 18.3%;
+top: -18.3%;
+bottom: 18.3%;
+
+transform: rotate(-30deg);
+
+
+/* current-pattern */
+
+position: absolute;
+left: 37.35%;
+right: 17.34%;
+top: 37.35%;
+bottom: 17.34%;
+
+transform: rotate(-30deg);
+
+
+/* center-mask */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #FFFFFF;
+border: 2px solid #000000;
+transform: rotate(-30deg);
+
+
+/* current-force-pattern */
+
+position: absolute;
+left: -36.51%;
+right: -16.94%;
+top: -36.51%;
+bottom: -16.94%;
+
+transform: rotate(-30deg);
+
+
+/* wind-force-pattern */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+transform: rotate(-30deg);
+
+
+/* background */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #BEBEBE;
+transform: rotate(-30deg);
+
+
+/* watch-face-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Watch-face */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* frame-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Frame */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* scale */
+
+position: absolute;
+left: 13.28%;
+right: 13.28%;
+top: 13.28%;
+bottom: 13.28%;
+
+background: #FFFFFF;
+border: 1px solid #FFFFFF;
+
+
+/* track */
+
+position: absolute;
+left: 17.97%;
+right: 17.97%;
+top: 17.97%;
+bottom: 17.97%;
+
+background: #F0F0F0;
+border: 1px solid #F0F0F0;
+
+
+/* outline */
+
+position: absolute;
+left: 13.28%;
+right: 13.28%;
+top: 13.28%;
+bottom: 13.28%;
+
+border: 1px solid #BEBEBE;
+
+
+/* cross-hair-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* outline */
+
+position: absolute;
+left: 13.28%;
+right: 13.28%;
+top: 13.28%;
+bottom: 13.28%;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+
+
+/* Cross-hair */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* horizontal */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 50%;
+bottom: 50%;
+
+border: 1px solid #BEBEBE;
+
+
+/* vertical */
+
+position: absolute;
+left: 50%;
+right: -50%;
+top: 0%;
+bottom: 100%;
+
+border: 1px solid #BEBEBE;
+transform: rotate(90deg);
+
+
+/* cross-hair-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* label-circle */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 28.12%;
+right: 28.12%;
+top: 28.12%;
+bottom: 28.12%;
+
+background: #FFFFFF;
+border: 20px solid #000000;
+
+
+/* Cross-hair */
+
+position: absolute;
+left: 17.97%;
+right: 17.97%;
+top: 17.97%;
+bottom: 17.97%;
+
+
+
+/* horizontal */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 50%;
+bottom: 50%;
+
+border: 1px solid #BEBEBE;
+
+
+/* vertical */
+
+position: absolute;
+left: 50%;
+right: -50%;
+top: 0%;
+bottom: 100%;
+
+border: 1px solid #BEBEBE;
+transform: rotate(90deg);
+
+
+/* scale-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Scale-mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* scale */
+
+position: absolute;
+left: 13.28%;
+right: 13.28%;
+top: 13.28%;
+bottom: 13.28%;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+
+
+/* Scale */
+
+position: absolute;
+width: 512px;
+left: calc(50% - 512px/2);
+top: 0%;
+bottom: 0%;
+
+
+
+/* secondary-marks-container */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* primary-marks-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Mask-radial-tick-marks-proportional */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* frame-size */
+
+position: absolute;
+width: 368px;
+height: 368px;
+left: 72px;
+top: 72px;
+
+background: #000000;
+
+
+/* outer-circle */
+
+position: absolute;
+height: 368px;
+left: 14.06%;
+right: 14.06%;
+top: calc(50% - 368px/2);
+
+background: #000000;
+
+
+/* inner-circle */
+
+position: absolute;
+height: 320px;
+left: 18.75%;
+right: 18.75%;
+top: calc(50% - 320px/2);
+
+background: #000000;
+
+
+/* primary-tick-marks */
+
+position: absolute;
+left: 10.94%;
+right: 10.94%;
+top: 10.94%;
+bottom: 10.94%;
+
+
+
+/* tick-marks */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+border: 1px solid #BEBEBE;
+
+
+/* main-marks-container */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* mask */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Mask-radial-tick-marks-proportional */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* frame-size */
+
+position: absolute;
+width: 384px;
+height: 384px;
+left: 64px;
+top: 64px;
+
+background: #000000;
+
+
+/* outer-circle */
+
+position: absolute;
+height: 384px;
+left: 12.5%;
+right: 12.5%;
+top: calc(50% - 384px/2);
+
+background: #000000;
+
+
+/* inner-circle */
+
+position: absolute;
+height: 328px;
+left: 17.97%;
+right: 17.97%;
+top: calc(50% - 328px/2);
+
+background: #000000;
+
+
+/* main-tick-marks */
+
+position: absolute;
+left: 10.94%;
+right: 10.94%;
+top: 10.94%;
+bottom: 10.94%;
+
+
+
+/* tick-marks */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+border: 1px solid #BEBEBE;
+
+
+/* label-container */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+
+
+/* Labels */
+
+position: absolute;
+left: 20.83%;
+right: 20.83%;
+top: 20.83%;
+bottom: 20.83%;
+
+
+
+/* label-frame-0 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* position-container-top */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: calc(50% - 16px/2 + 0px);
+top: 0px;
+
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-component */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* icon */
+
+display: none;
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 2px;
+gap: 8px;
+
+width: 14px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* value */
+
+width: 10px;
+height: 16px;
+
+/* Instrument/Tick-mark */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 370;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+font-feature-settings: 'ss04' on;
+
+color: #707070;
+font-stretch: 100;
+font-variation-settings: 'CTGR' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* position-container-bottom */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-end;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: calc(50% - 16px/2 + 0px);
+bottom: 0px;
+
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-component */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* icon */
+
+display: none;
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 2px;
+gap: 8px;
+
+width: 11px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* value */
+
+width: 7px;
+height: 16px;
+
+/* Instrument/Tick-mark */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 370;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+font-feature-settings: 'ss04' on;
+
+color: #707070;
+font-stretch: 100;
+font-variation-settings: 'CTGR' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* position-container-right */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 16px;
+height: 16px;
+right: 0px;
+top: calc(50% - 16px/2 - 0px);
+
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-component */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px 2px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 2px;
+gap: 8px;
+
+width: 11px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* value */
+
+width: 7px;
+height: 16px;
+
+/* Instrument/Tick-mark */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 370;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+font-feature-settings: 'ss04' on;
+
+color: #707070;
+font-stretch: 100;
+font-variation-settings: 'CTGR' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* icon */
+
+display: none;
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* position-container-left */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 0px;
+top: calc(50% - 16px/2 - 0px);
+
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-component */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 2px;
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* icon */
+
+display: none;
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* label-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 2px;
+gap: 8px;
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* value */
+
+width: 12px;
+height: 16px;
+
+/* Instrument/Tick-mark */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 370;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+font-feature-settings: 'ss04' on;
+
+color: #707070;
+font-stretch: 100;
+font-variation-settings: 'CTGR' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* North-arrow */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* arrow */
+
+position: absolute;
+width: 34.11px;
+height: 22.43px;
+left: 238.94px;
+top: 70.44px;
+
+background: #BEBEBE;
+
+
+/* Vector 430 */
+
+position: absolute;
+visibility: hidden;
+left: 46.09%;
+right: 46.09%;
+top: 13.48%;
+bottom: 81.05%;
+
+background: #535353;
+border-radius: 2px;
+
+
+/* Vector 431 */
+
+position: absolute;
+left: 46.46%;
+right: 46.46%;
+top: 13.76%;
+bottom: 81.05%;
+
+background: #535353;
+border-radius: 2px;
+
+
+/* Ellipse 76 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 17.97%;
+right: 17.97%;
+top: 17.97%;
+bottom: 17.97%;
+
+background: #FFFFFF;
+border: 8px solid #000000;
+
+
+/* border-inner */
+
+position: absolute;
+visibility: hidden;
+left: 18.75%;
+right: 18.75%;
+top: 18.75%;
+bottom: 18.75%;
+
+/* Instrument/Frame-tertiary-color
+
+For tertiary watch face elements or other dimmed down elements. Not accessible for text.
+*/
+border: 1px solid #D9D9D9;
+
+
+/* wind-arrow */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Current */
+
+position: absolute;
+left: -18.3%;
+right: 18.3%;
+top: -18.3%;
+bottom: 18.3%;
+
+transform: rotate(-30deg);
+
+
+/* Icon-container */
+
+position: absolute;
+left: 48.23%;
+right: 42.4%;
+top: 38.22%;
+bottom: 52.41%;
+
+transform: rotate(-30deg);
+
+
+/* Outliner */
+
+position: absolute;
+width: 17.36px;
+height: 40px;
+left: 15.27px;
+top: 11.12px;
+
+background: #535353;
+border: 1px solid #F7F7F7;
+transform: rotate(-30deg);
+
+
+/* 11-current-3 */
+
+position: absolute;
+left: 11.39%;
+right: 5.28%;
+top: 11.38%;
+bottom: 5.29%;
+
+transform: rotate(60deg);
+
+
+/* Icon */
+
+position: absolute;
+left: 24.51%;
+right: -24.51%;
+top: 14.15%;
+bottom: 42.45%;
+
+background: #000000;
+transform: rotate(60deg);
+
+
+/* vessel-container */
+
+position: absolute;
+left: -11.24%;
+right: 11.24%;
+top: -11.24%;
+bottom: 11.24%;
+
+transform: rotate(15deg);
+
+
+/* Vessel */
+
+position: absolute;
+left: 42.1%;
+right: 26.65%;
+top: 42.1%;
+bottom: 26.65%;
+
+transform: rotate(15deg);
+
+
+/* Vessel */
+
+position: absolute;
+left: 6.12%;
+right: 3.88%;
+top: 6.12%;
+bottom: 3.88%;
+
+transform: rotate(15deg);
+
+
+/* Vector 488 */
+
+position: absolute;
+left: 39.83%;
+right: -36.7%;
+top: 11.35%;
+bottom: 69.9%;
+
+background: #FFFFFF;
+border: 1px solid #8E8E8E;
+transform: rotate(-75deg);
+
+
+/* Vector 489 */
+
+position: absolute;
+left: 38.15%;
+right: 44.66%;
+top: 87.88%;
+bottom: -10.1%;
+
+background: #FFFFFF;
+border: 1px solid #8E8E8E;
+transform: rotate(-75deg);
+
+
+/* Rectangle 1 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 67.14%;
+right: 21.75%;
+top: 20.45%;
+bottom: 75.38%;
+
+background: #8E8E8E;
+border: 1px solid #8E8E8E;
+transform: rotate(75deg);
+
+
+/* Rectangle 2 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 62.82%;
+right: 26.07%;
+top: 36.55%;
+bottom: 59.28%;
+
+background: #8E8E8E;
+border: 1px solid #8E8E8E;
+transform: rotate(75deg);
+
+
+/* Rectangle 3 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 58.51%;
+right: 30.38%;
+top: 52.65%;
+bottom: 43.19%;
+
+background: #8E8E8E;
+border: 1px solid #8E8E8E;
+transform: rotate(75deg);
+
+
+/* Rectangle 4 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 54.19%;
+right: 34.69%;
+top: 68.75%;
+bottom: 27.09%;
+
+background: #8E8E8E;
+border: 1px solid #8E8E8E;
+transform: rotate(75deg);
+
+
+/* label-spacer */
+
+display: none;
+width: 20px;
+height: 20px;
+
+background: #F0F0F0;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* label-spacer */
+
+display: none;
+width: 20px;
+height: 20px;
+
+background: #F0F0F0;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Documentation text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+position: relative;
+width: 792px;
+height: 116px;
+left: 80px;
+top: 80px;
+
+
+
+/* Title */
+
+width: 141px;
+height: 64px;
+
+/* Header */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 56px;
+line-height: 64px;
+/* identical to box height, or 114% */
+
+color: #1F1F1F;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text here */
+
+width: 771px;
+height: 28px;
+
+/* Intro (after Header) */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+/* identical to box height, or 140% */
+
+color: #535353;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;

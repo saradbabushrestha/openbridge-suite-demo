@@ -1,0 +1,15 @@
+export { default as BuildingBlocksCompassConfigCompassArcAdvice } from "./components/building-blocks/compass/config-compass-arc-advice";
+export { default as BuildingBlocksCompassConfigCompassLinearAdvice } from "./components/building-blocks/compass/config-compass-linear-advice";
+export { default as BuildingBlocksCompassConfigCompassRadialAdvice } from "./components/building-blocks/compass/config-compass-radial-advice";
+export { default as BuildingBlocksDepthConfigDepthAdvice } from "./components/building-blocks/depth/config-depth-advice";
+export { default as BuildingBlocksGaugeBarConfigGaugeHorizontalLinearAdvice } from "./components/building-blocks/gauge-bar/config-gauge-horizontal-linear-advice";
+export { default as BuildingBlocksGaugeBarConfigGaugeVerticalAdvice } from "./components/building-blocks/gauge-bar/config-gauge-vertical-advice";
+export { default as BuildingBlocksGaugeTrendConfigGaugeVerticalAdvice } from "./components/building-blocks/gauge-trend/config-gauge-vertical-advice";
+export { default as BuildingBlocksHeadingConfigHeadingArcAdvice } from "./components/building-blocks/heading/config-heading-arc-advice";
+export { default as BuildingBlocksHeadingConfigHeadingRadialAdvice } from "./components/building-blocks/heading/config-heading-radial-advice";
+export { default as BuildingBlocksRateOfTurnConfigHeadingArcAdvice } from "./components/building-blocks/rate-of-turn/config-heading-arc-advice";
+export { default as BuildingBlocksRateOfTurnConfigHeadingRadialAdvice } from "./components/building-blocks/rate-of-turn/config-heading-radial-advice";
+export { default as BuildingBlocksRudderConfigRudderAdvice } from "./components/building-blocks/rudder/config-rudder-advice";
+export { default as BuildingBlocksSailConfigRollAdvice } from "./components/building-blocks/sail/config-roll-advice";
+export { default as BuildingBlocksSpeedConfigSpeedRadialAdvice } from "./components/building-blocks/speed/config-speed-radial-advice";
+export { default as BuildingBlocksTunnelThrusterConfigTunnelThrusterLinearAdvice } from "./components/building-blocks/tunnel-thruster/config-tunnel-thruster-linear-advice";

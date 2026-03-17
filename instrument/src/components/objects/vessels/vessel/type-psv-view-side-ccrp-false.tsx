@@ -1,0 +1,12 @@
+import * as React from "react";
+import { renderOpenBridgeSvg, type OpenBridgeAssetProps } from "../../../../runtime/renderOpenBridgeSvg";
+
+const svgMarkup = "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"160.0\" height=\"160.0\" viewBox=\"0 0 160.0 160.0\" fill=\"none\">\n  <defs>\n    <clipPath id=\"clip__asset\">\n      <rect x=\"0\" y=\"0\" width=\"160.0\" height=\"160.0\"/>\n    </clipPath>\n  </defs>\n  <g clip-path=\"url(#clip__asset)\" transform=\"translate(-420.0 -240.0)\"><path d=\"M560.366 327.118H441.385V323.038L432.484 320V311.541H512.594L525.575 298.56L524.092 294.11H522.608L524.092 292.997H526.688V291.143H527.429L524.462 281.5H526.688L531.88 291.143C535.331 291.143 538.772 291.521 542.141 292.269L550.424 294.11H548.57L546.344 298.56L551.907 304.124H566.743C566.743 304.124 563.808 307.744 562.292 310.614C561.041 312.983 559.325 317.104 559.325 317.104L563.176 316.404C565.419 315.996 567.484 317.72 567.484 320C567.484 323.931 564.297 327.118 560.366 327.118Z\" fill=\"white\" id=\"n241\"/>\n<path d=\"M432.484 320H567.484M432.484 320L441.385 323.038V327.118H560.366C564.297 327.118 567.484 323.931 567.484 320M432.484 320V311.541H512.594M567.484 320C567.484 317.72 565.419 315.996 563.176 316.404L559.325 317.104C559.325 317.104 561.041 312.983 562.292 310.614C563.808 307.744 566.743 304.124 566.743 304.124H551.907M512.594 311.541H517.416L524.833 304.124H551.907M512.594 311.541L525.575 298.56M525.575 298.56H546.344M525.575 298.56L524.092 294.11H548.57L546.344 298.56M546.344 298.56L551.907 304.124M531.88 291.143L526.688 281.5H524.462L527.429 291.143M531.88 291.143H527.429M531.88 291.143C535.331 291.143 538.772 291.521 542.141 292.269L550.424 294.11H522.608L524.092 292.997H526.688V291.143H527.429\" stroke=\"#8E8E8E\" id=\"n242\"/>\n</g>\n</svg>\n";
+
+export type ObjectsVesselsVesselTypePsvViewSideCcrpFalseProps = OpenBridgeAssetProps;
+
+export const ObjectsVesselsVesselTypePsvViewSideCcrpFalse = React.forwardRef(function ObjectsVesselsVesselTypePsvViewSideCcrpFalse(props: ObjectsVesselsVesselTypePsvViewSideCcrpFalseProps, ref: any) {
+  return renderOpenBridgeSvg(svgMarkup, { ...props, ref, intrinsicWidth: 160.0, intrinsicHeight: 160.0 });
+});
+
+export default ObjectsVesselsVesselTypePsvViewSideCcrpFalse;

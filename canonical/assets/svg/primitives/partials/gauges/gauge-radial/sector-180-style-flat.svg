@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48.0" height="48.0" viewBox="0 0 48.0 48.0" fill="none">
+  <defs>
+    <clipPath id="clip__asset">
+      <rect x="0" y="0" width="48.0" height="48.0"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#clip__asset)" transform="translate(-2456.0 -300.0)"><path d="M2462 324C2462 321.636 2462.47 319.296 2463.37 317.112C2464.27 314.928 2465.6 312.944 2467.27 311.272L2480 324L2462 324Z" fill="#9CC1F5" stroke="#9CC1F5" id="n415"/>
+<path d="M2462 324H2480" stroke="#BEBEBE" stroke-linecap="square" id="n416"/>
+<path d="M2462 324C2462 319.226 2463.9 314.648 2467.27 311.272C2470.65 307.896 2475.23 306 2480 306C2484.77 306 2489.35 307.896 2492.73 311.272C2496.1 314.648 2498 319.226 2498 324" stroke="#BEBEBE" stroke-linecap="round" id="n417"/>
+<rect x="2465.86" y="311.979" width="3" height="21" rx="1.5" transform="rotate(-45 2465.86 311.979)" fill="#2D548B" stroke="#F7F7F7" id="n418"/>
+<circle cx="2480" cy="324.003" r="3" transform="rotate(-45 2480 324.003)" fill="#2D548B" id="n419"/>
+<path d="M2479.33 334.667H2480.67V337.334H2483.33V338.667H2480.67V341.334H2479.33V338.667H2476.67V337.334H2479.33V334.667Z" fill="#535353" id="n420"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M2473.07 337.011L2479.01 331.075C2479.55 330.531 2480.45 330.531 2480.99 331.075L2486.93 337.011C2487.47 337.555 2487.47 338.446 2486.93 338.99L2480.99 344.926C2480.45 345.47 2479.55 345.47 2479.01 344.926L2473.07 338.99C2472.53 338.446 2472.53 337.555 2473.07 337.011ZM2480 332L2474 338L2480 344L2486 338L2480 332Z" fill="#535353" id="n421"/>
+</g>
+</svg>

@@ -1,0 +1,4 @@
+import { type OpenBridgeAssetProps } from "../../../../runtime/renderOpenBridgeSvg";
+export type MainNavigationElementsBuildingBlockNavigationMenuNavigationMenuFooterTypeVerticalIconLargeProps = OpenBridgeAssetProps;
+export declare const MainNavigationElementsBuildingBlockNavigationMenuNavigationMenuFooterTypeVerticalIconLarge: any;
+export default MainNavigationElementsBuildingBlockNavigationMenuNavigationMenuFooterTypeVerticalIconLarge;

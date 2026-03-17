@@ -1,0 +1,12 @@
+import * as React from "react";
+import { renderOpenBridgeSvg, type OpenBridgeAssetProps } from "../../../runtime/renderOpenBridgeSvg";
+
+const svgMarkup = "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"512.0\" height=\"512.0\" viewBox=\"0 0 512.0 512.0\" fill=\"none\">\n  <defs>\n    <clipPath id=\"clip__asset\">\n      <rect x=\"0\" y=\"0\" width=\"512.0\" height=\"512.0\"/>\n    </clipPath>\n  </defs>\n  <g clip-path=\"url(#clip__asset)\" transform=\"translate(-18376.0 -3156.0)\"><path d=\"M18853.7 3540C18825.5 3588.8 18782 3626.95 18730 3648.51C18677.9 3670.08 18620.2 3673.86 18565.7 3659.28C18511.3 3644.69 18463.2 3612.55 18428.9 3567.84C18394.6 3523.13 18376 3468.35 18376 3412C18376 3355.65 18394.6 3300.87 18428.9 3256.16C18463.2 3211.45 18511.3 3179.31 18565.7 3164.72C18620.2 3150.14 18677.9 3153.92 18730 3175.49C18782 3197.05 18825.5 3235.2 18853.7 3284L18632 3412L18853.7 3540Z\" stroke=\"#535353\" id=\"n1095\"/>\n</g>\n</svg>\n";
+
+export type BuildingBlocksMotionConfigPitchAdviceDangerProps = OpenBridgeAssetProps;
+
+export const BuildingBlocksMotionConfigPitchAdviceDanger = React.forwardRef(function BuildingBlocksMotionConfigPitchAdviceDanger(props: BuildingBlocksMotionConfigPitchAdviceDangerProps, ref: any) {
+  return renderOpenBridgeSvg(svgMarkup, { ...props, ref, intrinsicWidth: 512.0, intrinsicHeight: 512.0 });
+});
+
+export default BuildingBlocksMotionConfigPitchAdviceDanger;

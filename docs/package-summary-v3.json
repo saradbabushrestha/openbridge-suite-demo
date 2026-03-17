@@ -1,0 +1,82 @@
+{
+  "version": "3.0.0",
+  "legacyAssetCount": 1088,
+  "canonicalUniqueAssetCount": 971,
+  "exactDuplicateLegacyAssetsCollapsed": 117,
+  "domains": [
+    "environment",
+    "motion",
+    "navigation",
+    "objects",
+    "primitives",
+    "propulsion",
+    "readout",
+    "shell"
+  ],
+  "familySummary": {
+    "building-blocks": {
+      "totalAssets": 111,
+      "uniqueCanonicalAssets": 111,
+      "duplicateAssets": 0
+    },
+    "environment": {
+      "totalAssets": 13,
+      "uniqueCanonicalAssets": 13,
+      "duplicateAssets": 0
+    },
+    "gauges": {
+      "totalAssets": 146,
+      "uniqueCanonicalAssets": 102,
+      "duplicateAssets": 44
+    },
+    "indicators": {
+      "totalAssets": 73,
+      "uniqueCanonicalAssets": 70,
+      "duplicateAssets": 3
+    },
+    "main-navigation-elements": {
+      "totalAssets": 51,
+      "uniqueCanonicalAssets": 48,
+      "duplicateAssets": 3
+    },
+    "motion": {
+      "totalAssets": 141,
+      "uniqueCanonicalAssets": 81,
+      "duplicateAssets": 60
+    },
+    "navigation": {
+      "totalAssets": 101,
+      "uniqueCanonicalAssets": 94,
+      "duplicateAssets": 7
+    },
+    "notification-and-advice": {
+      "totalAssets": 58,
+      "uniqueCanonicalAssets": 58,
+      "duplicateAssets": 0
+    },
+    "objects": {
+      "totalAssets": 44,
+      "uniqueCanonicalAssets": 44,
+      "duplicateAssets": 0
+    },
+    "propulsion": {
+      "totalAssets": 98,
+      "uniqueCanonicalAssets": 98,
+      "duplicateAssets": 0
+    },
+    "readout": {
+      "totalAssets": 132,
+      "uniqueCanonicalAssets": 132,
+      "duplicateAssets": 0
+    },
+    "top-bar": {
+      "totalAssets": 120,
+      "uniqueCanonicalAssets": 120,
+      "duplicateAssets": 0
+    }
+  },
+  "largestDuplicateClusterCount": 16,
+  "compatibilityAliases": true,
+  "canonicalRuntime": true,
+  "buildScriptsAdded": true
+}

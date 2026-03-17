@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48.0" height="48.0" viewBox="0 0 48.0 48.0" fill="none">
+  <defs>
+    <clipPath id="clip__asset">
+      <rect x="0" y="0" width="48.0" height="48.0"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#clip__asset)" transform="translate(-1844.0 -312.0)"><path d="M1859 332V334H1869V332H1859ZM1863 336V338H1859V340H1863V342H1865V336H1863ZM1877 340V338H1867V340H1877ZM1871 336H1873V334H1877V332H1873V330H1871V336Z" fill="#535353" id="n743"/>
+</g>
+</svg>

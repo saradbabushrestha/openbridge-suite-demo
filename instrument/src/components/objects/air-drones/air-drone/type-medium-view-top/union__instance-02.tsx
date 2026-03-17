@@ -1,0 +1,12 @@
+import * as React from "react";
+import { renderOpenBridgeSvg, type OpenBridgeAssetProps } from "../../../../../runtime/renderOpenBridgeSvg";
+
+const svgMarkup = "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"51.0\" height=\"51.0\" viewBox=\"0 0 51.0 51.0\" fill=\"none\">\n  <defs>\n    <clipPath id=\"clip__asset\">\n      <rect x=\"0\" y=\"0\" width=\"51.0\" height=\"51.0\"/>\n    </clipPath>\n  </defs>\n  <g clip-path=\"url(#clip__asset)\" transform=\"translate(-4362.5 -474.5)\"><path d=\"M4398 484.5C4383.92 484.5 4372.5 495.917 4372.5 510C4372.5 524.083 4383.92 535.5 4398 535.5C4412.08 535.5 4423.5 524.083 4423.5 510C4423.5 495.917 4412.08 484.5 4398 484.5ZM4398 485.5C4411.53 485.5 4422.5 496.469 4422.5 510C4422.5 523.531 4411.53 534.5 4398 534.5C4384.47 534.5 4373.5 523.531 4373.5 510C4373.5 496.469 4384.47 485.5 4398 485.5ZM4398.31 486.426C4397.66 486.215 4397 486.697 4397 487.377V505.101C4396.29 505.244 4395.64 505.536 4395.08 505.942L4394.68 505.597C4394.25 505.218 4393.67 505.044 4393.1 505.119L4376.39 507.335C4375.63 507.436 4374.99 507.965 4374.75 508.696L4374.43 509.689C4374.22 510.336 4374.7 511 4375.38 511H4393.1C4393.24 511.706 4393.54 512.356 4393.94 512.92L4393.6 513.316C4393.22 513.75 4393.04 514.326 4393.12 514.896L4395.33 531.607C4395.44 532.37 4395.97 533.007 4396.7 533.246L4397.69 533.57C4398.34 533.781 4399 533.3 4399 532.62V514.898C4399.71 514.755 4400.36 514.463 4400.92 514.056L4401.32 514.403C4401.75 514.782 4402.33 514.956 4402.9 514.881L4419.61 512.665C4420.37 512.564 4421.01 512.035 4421.25 511.304L4421.57 510.311C4421.78 509.664 4421.3 509 4420.62 509H4402.9C4402.76 508.293 4402.46 507.64 4402.06 507.076L4402.4 506.68C4402.78 506.247 4402.96 505.671 4402.88 505.101L4400.67 488.389C4400.56 487.626 4400.03 486.989 4399.3 486.75L4398.31 486.426Z\" fill=\"#8E8E8E\" id=\"n97\"/>\n<circle cx=\"4398\" cy=\"510\" r=\"2.5\" transform=\"rotate(-90 4398 510)\" stroke=\"white\" id=\"n98\"/>\n</g>\n</svg>\n";
+
+export type ObjectsAirDronesAirDroneTypeMediumViewTopUnionInstance02Props = OpenBridgeAssetProps;
+
+export const ObjectsAirDronesAirDroneTypeMediumViewTopUnionInstance02 = React.forwardRef(function ObjectsAirDronesAirDroneTypeMediumViewTopUnionInstance02(props: ObjectsAirDronesAirDroneTypeMediumViewTopUnionInstance02Props, ref: any) {
+  return renderOpenBridgeSvg(svgMarkup, { ...props, ref, intrinsicWidth: 51.0, intrinsicHeight: 51.0 });
+});
+
+export default ObjectsAirDronesAirDroneTypeMediumViewTopUnionInstance02;

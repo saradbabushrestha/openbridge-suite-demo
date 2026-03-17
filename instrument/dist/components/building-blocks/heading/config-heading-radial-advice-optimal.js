@@ -1,0 +1,7 @@
+import * as React from "react";
+import { renderOpenBridgeSvg } from "../../../runtime/renderOpenBridgeSvg";
+const svgMarkup = "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"512.0\" height=\"512.0\" viewBox=\"0 0 512.0 512.0\" fill=\"none\">\n  <defs>\n    <clipPath id=\"clip__asset\">\n      <rect x=\"0\" y=\"0\" width=\"512.0\" height=\"512.0\"/>\n    </clipPath>\n  </defs>\n  <g clip-path=\"url(#clip__asset)\" transform=\"translate(-2652.0 -1519.0)\"><path d=\"M3072.55 1578.89C3038.13 1550.01 2996.71 1530.69 2952.45 1522.89L2908 1775L3072.55 1578.89Z\" stroke=\"#535353\" id=\"n132\"/>\n</g>\n</svg>\n";
+export const BuildingBlocksHeadingConfigHeadingRadialAdviceOptimal = React.forwardRef(function BuildingBlocksHeadingConfigHeadingRadialAdviceOptimal(props, ref) {
+    return renderOpenBridgeSvg(svgMarkup, { ...props, ref, intrinsicWidth: 512.0, intrinsicHeight: 512.0 });
+});
+export default BuildingBlocksHeadingConfigHeadingRadialAdviceOptimal;

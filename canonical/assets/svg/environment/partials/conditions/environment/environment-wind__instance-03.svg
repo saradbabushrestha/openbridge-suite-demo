@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48.0" height="48.0" viewBox="0 0 48.0 48.0" fill="none">
+  <defs>
+    <clipPath id="clip__asset">
+      <rect x="0" y="0" width="48.0" height="48.0"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#clip__asset)" transform="translate(-3021.0 -416.0)"><path d="M3044.59 417.57L3040.56 423.209C3040.33 423.54 3040.56 424 3040.97 424H3049.03C3049.44 424 3049.67 423.54 3049.44 423.209L3045.41 417.57C3045.21 417.29 3044.79 417.29 3044.59 417.57Z" fill="#BEBEBE" id="n222"/>
+<circle cx="3045" cy="440" r="18" fill="white" stroke="#BEBEBE" id="n223"/>
+<path d="M3045 441V434M3052 427H3046C3045.45 427 3045 427.448 3045 428V430.5M3045 430.5H3052M3045 430.5V434M3045 434H3049" stroke="#535353" stroke-width="2" stroke-linecap="round" id="n224"/>
+<path d="M3047.38 440H3042.62C3041.87 440 3041.39 440.782 3041.72 441.447L3044.11 446.211C3044.47 446.948 3045.53 446.948 3045.89 446.211L3048.28 441.447C3048.61 440.782 3048.13 440 3047.38 440Z" fill="#535353" id="n225"/>
+</g>
+</svg>

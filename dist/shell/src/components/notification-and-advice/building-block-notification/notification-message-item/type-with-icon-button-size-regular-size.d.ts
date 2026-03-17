@@ -1,0 +1,4 @@
+import { type OpenBridgeAssetProps } from "../../../../runtime/renderOpenBridgeSvg";
+export type NotificationAndAdviceBuildingBlockNotificationNotificationMessageItemTypeWithIconButtonSizeRegularSizeProps = OpenBridgeAssetProps;
+export declare const NotificationAndAdviceBuildingBlockNotificationNotificationMessageItemTypeWithIconButtonSizeRegularSize: any;
+export default NotificationAndAdviceBuildingBlockNotificationNotificationMessageItemTypeWithIconButtonSizeRegularSize;

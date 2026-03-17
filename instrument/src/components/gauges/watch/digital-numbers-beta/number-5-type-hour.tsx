@@ -1,0 +1,12 @@
+import * as React from "react";
+import { renderOpenBridgeSvg, type OpenBridgeAssetProps } from "../../../../runtime/renderOpenBridgeSvg";
+
+const svgMarkup = "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"24.0\" height=\"32.0\" viewBox=\"0 0 24.0 32.0\" fill=\"none\">\n  <defs>\n    <clipPath id=\"clip__asset\">\n      <rect x=\"0\" y=\"0\" width=\"24.0\" height=\"32.0\"/>\n    </clipPath>\n  </defs>\n  <g clip-path=\"url(#clip__asset)\" transform=\"translate(-9635.0 -609.0)\"><path d=\"M9647.31 620.75C9649.17 620.75 9650.81 621.14 9652.22 621.92C9653.66 622.7 9654.77 623.81 9655.55 625.25C9656.36 626.69 9656.76 628.43 9656.76 630.47C9656.76 632.72 9656.33 634.67 9655.46 636.32C9654.59 637.97 9653.28 639.245 9651.54 640.145C9649.83 641.015 9647.72 641.45 9645.2 641.45C9643.67 641.45 9642.23 641.3 9640.88 641C9639.56 640.73 9638.4 640.325 9637.41 639.785V634.79C9638.46 635.39 9639.66 635.885 9641.01 636.275C9642.39 636.635 9643.71 636.815 9644.97 636.815C9646.29 636.815 9647.4 636.59 9648.3 636.14C9649.23 635.66 9649.94 634.985 9650.42 634.115C9650.93 633.215 9651.18 632.135 9651.18 630.875C9651.18 629.075 9650.66 627.71 9649.61 626.78C9648.59 625.82 9647.01 625.34 9644.88 625.34C9644.13 625.34 9643.32 625.415 9642.45 625.565C9641.58 625.715 9640.83 625.88 9640.2 626.06L9638 624.665L9639.12 608.87H9654.74V613.685H9643.85L9643.26 621.2C9643.83 621.11 9644.43 621.02 9645.06 620.93C9645.69 620.81 9646.44 620.75 9647.31 620.75Z\" fill=\"black\" id=\"n750\"/>\n</g>\n</svg>\n";
+
+export type GaugesWatchDigitalNumbersBetaNumber5TypeHourProps = OpenBridgeAssetProps;
+
+export const GaugesWatchDigitalNumbersBetaNumber5TypeHour = React.forwardRef(function GaugesWatchDigitalNumbersBetaNumber5TypeHour(props: GaugesWatchDigitalNumbersBetaNumber5TypeHourProps, ref: any) {
+  return renderOpenBridgeSvg(svgMarkup, { ...props, ref, intrinsicWidth: 24.0, intrinsicHeight: 32.0 });
+});
+
+export default GaugesWatchDigitalNumbersBetaNumber5TypeHour;

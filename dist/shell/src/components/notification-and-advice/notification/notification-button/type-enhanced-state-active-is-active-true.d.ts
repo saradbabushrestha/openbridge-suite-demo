@@ -1,0 +1,4 @@
+import { type OpenBridgeAssetProps } from "../../../../runtime/renderOpenBridgeSvg";
+export type NotificationAndAdviceNotificationNotificationButtonTypeEnhancedStateActiveIsActiveTrueProps = OpenBridgeAssetProps;
+export declare const NotificationAndAdviceNotificationNotificationButtonTypeEnhancedStateActiveIsActiveTrue: any;
+export default NotificationAndAdviceNotificationNotificationButtonTypeEnhancedStateActiveIsActiveTrue;

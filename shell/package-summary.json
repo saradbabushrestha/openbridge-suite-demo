@@ -1,0 +1,26 @@
+{
+  "package": "openbridge_shell_assets_extracted_usable",
+  "asset_count": 229,
+  "leaf_count": 213,
+  "composite_count": 16,
+  "group_counts": {
+    "notification-and-advice": 58,
+    "main-navigation-elements": 51,
+    "top-bar": 120
+  },
+  "group_offsets": {
+    "notification-and-advice": {
+      "offset_x": 40.0,
+      "offset_y": 40.0
+    },
+    "main-navigation-elements": {
+      "offset_x": 40.0,
+      "offset_y": 40.0
+    },
+    "top-bar": {
+      "offset_x": 40.0,
+      "offset_y": 40.0
+    }
+  },
+  "shape_asset_count": 229
+}

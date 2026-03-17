@@ -1,0 +1,12 @@
+import * as React from "react";
+import { renderOpenBridgeSvg, type OpenBridgeAssetProps } from "../../../../runtime/renderOpenBridgeSvg";
+
+const svgMarkup = "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"48.0\" height=\"48.0\" viewBox=\"0 0 48.0 48.0\" fill=\"none\">\n  <defs>\n    <clipPath id=\"clip__asset\">\n      <rect x=\"0\" y=\"0\" width=\"48.0\" height=\"48.0\"/>\n    </clipPath>\n  </defs>\n  <g clip-path=\"url(#clip__asset)\" transform=\"translate(-4128.0 -288.0)\"><path d=\"M4136 305.6C4136 302.24 4136 300.56 4136.65 299.276C4137.23 298.147 4138.15 297.229 4139.28 296.654C4140.56 296 4142.24 296 4145.6 296H4158.4C4161.76 296 4163.44 296 4164.72 296.654C4165.85 297.229 4166.77 298.147 4167.35 299.276C4168 300.56 4168 302.24 4168 305.6V318.4C4168 321.76 4168 323.44 4167.35 324.724C4166.77 325.853 4165.85 326.771 4164.72 327.346C4163.44 328 4161.76 328 4158.4 328H4145.6C4142.24 328 4140.56 328 4139.28 327.346C4138.15 326.771 4137.23 325.853 4136.65 324.724C4136 323.44 4136 321.76 4136 318.4V305.6Z\" fill=\"black\" fill-opacity=\"0.04\" id=\"n301\"/>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M4144 319C4142.9 319 4142 318.105 4142 317V305C4142 303.895 4142.9 303 4144 303H4160C4161.1 303 4162 303.895 4162 305V317C4162 318.105 4161.1 319 4160 319H4155L4152 322L4149 319H4144ZM4152 313.576L4149.32 315.149C4148.94 315.373 4148.48 315.03 4148.58 314.601L4149.28 311.681L4146.94 309.718C4146.6 309.431 4146.78 308.871 4147.22 308.837L4150.33 308.595L4151.54 305.8C4151.72 305.399 4152.28 305.399 4152.46 305.8L4153.67 308.595L4156.78 308.837C4157.22 308.871 4157.4 309.431 4157.06 309.718L4154.72 311.681L4155.42 314.601C4155.52 315.03 4155.06 315.373 4154.68 315.149L4152 313.576Z\" fill=\"#00805E\" id=\"n302\"/>\n</g>\n</svg>\n";
+
+export type NotificationAndAdviceAdviceAdviceButtonTypeFlatStateHoverIsActiveTrueProps = OpenBridgeAssetProps;
+
+export const NotificationAndAdviceAdviceAdviceButtonTypeFlatStateHoverIsActiveTrue = React.forwardRef(function NotificationAndAdviceAdviceAdviceButtonTypeFlatStateHoverIsActiveTrue(props: NotificationAndAdviceAdviceAdviceButtonTypeFlatStateHoverIsActiveTrueProps, ref: any) {
+  return renderOpenBridgeSvg(svgMarkup, { ...props, ref, intrinsicWidth: 48.0, intrinsicHeight: 48.0 });
+});
+
+export default NotificationAndAdviceAdviceAdviceButtonTypeFlatStateHoverIsActiveTrue;

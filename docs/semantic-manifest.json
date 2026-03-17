@@ -1,0 +1,104 @@
+{
+  "semantic_components": [
+    {
+      "name": "NotificationButton",
+      "kind": "shell",
+      "purpose": "notification action button with variant/state mapping"
+    },
+    {
+      "name": "AdviceButton",
+      "kind": "shell",
+      "purpose": "advice action button with variant/state mapping"
+    },
+    {
+      "name": "NavigationRail",
+      "kind": "shell",
+      "purpose": "semantic wrapper for navigation menu rail/full/condensed variants"
+    },
+    {
+      "name": "AppMenu",
+      "kind": "shell",
+      "purpose": "semantic wrapper for app menu collapsed/expanded variants"
+    },
+    {
+      "name": "SystemMenu",
+      "kind": "shell",
+      "purpose": "assembled system menu with status adornments"
+    },
+    {
+      "name": "UserMenu",
+      "kind": "shell",
+      "purpose": "semantic wrapper for user menu states"
+    },
+    {
+      "name": "CommandMenu",
+      "kind": "shell",
+      "purpose": "semantic wrapper for command menu types"
+    },
+    {
+      "name": "TopBarShell",
+      "kind": "shell",
+      "purpose": "assembled top bar shell composed from extracted chrome and button assets"
+    },
+    {
+      "name": "CompassWidget",
+      "kind": "instrument",
+      "purpose": "semantic compass widget using conning or compass building-block assets"
+    },
+    {
+      "name": "HeadingWidget",
+      "kind": "instrument",
+      "purpose": "semantic heading widget using conning or heading building-block assets"
+    },
+    {
+      "name": "SpeedWidget",
+      "kind": "instrument",
+      "purpose": "semantic speed widget using conning or speed assets"
+    },
+    {
+      "name": "WindWidget",
+      "kind": "instrument",
+      "purpose": "semantic wind widget"
+    },
+    {
+      "name": "RudderWidget",
+      "kind": "instrument",
+      "purpose": "semantic rudder/bar widget"
+    },
+    {
+      "name": "ThrusterWidget",
+      "kind": "instrument",
+      "purpose": "semantic tunnel thruster widget"
+    },
+    {
+      "name": "MainEngineWidget",
+      "kind": "instrument",
+      "purpose": "semantic main engine widget"
+    },
+    {
+      "name": "ReadoutWidget",
+      "kind": "instrument",
+      "purpose": "semantic readout wrapper"
+    },
+    {
+      "name": "MotionWidget",
+      "kind": "instrument",
+      "purpose": "semantic motion widget"
+    },
+    {
+      "name": "BridgeShellDemo",
+      "kind": "example",
+      "purpose": "demo composition for shell assets"
+    },
+    {
+      "name": "BridgeInstrumentDemo",
+      "kind": "example",
+      "purpose": "demo composition for instrument assets"
+    },
+    {
+      "name": "BridgeConsoleDemo",
+      "kind": "example",
+      "purpose": "demo bridge console composition"
+    }
+  ]
+}

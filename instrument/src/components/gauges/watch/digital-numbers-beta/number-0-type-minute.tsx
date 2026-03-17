@@ -1,0 +1,12 @@
+import * as React from "react";
+import { renderOpenBridgeSvg, type OpenBridgeAssetProps } from "../../../../runtime/renderOpenBridgeSvg";
+
+const svgMarkup = "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"24.0\" height=\"32.0\" viewBox=\"0 0 24.0 32.0\" fill=\"none\">\n  <defs>\n    <clipPath id=\"clip__asset\">\n      <rect x=\"0\" y=\"0\" width=\"24.0\" height=\"32.0\"/>\n    </clipPath>\n  </defs>\n  <g clip-path=\"url(#clip__asset)\" transform=\"translate(-9789.0 -559.0)\"><path d=\"M9810.46 574.89C9810.46 577.5 9810.28 579.825 9809.92 581.865C9809.56 583.905 9809 585.645 9808.25 587.085C9807.5 588.495 9806.53 589.575 9805.33 590.325C9804.13 591.075 9802.69 591.45 9801.01 591.45C9798.94 591.45 9797.2 590.85 9795.79 589.65C9794.38 588.42 9793.31 586.59 9792.59 584.16C9791.9 581.7 9791.56 578.61 9791.56 574.89C9791.56 571.44 9791.87 568.485 9792.5 566.025C9793.13 563.565 9794.14 561.675 9795.52 560.355C9796.93 559.035 9798.76 558.375 9801.01 558.375C9803.2 558.375 9804.98 559.035 9806.36 560.355C9807.77 561.645 9808.81 563.52 9809.47 565.98C9810.13 568.44 9810.46 571.41 9810.46 574.89ZM9794.8 574.89C9794.8 577.92 9795.01 580.455 9795.43 582.495C9795.85 584.535 9796.51 586.065 9797.41 587.085C9798.34 588.105 9799.54 588.615 9801.01 588.615C9802.51 588.615 9803.71 588.105 9804.61 587.085C9805.51 586.065 9806.17 584.535 9806.59 582.495C9807.01 580.455 9807.22 577.92 9807.22 574.89C9807.22 571.95 9807.01 569.46 9806.59 567.42C9806.2 565.38 9805.55 563.835 9804.65 562.785C9803.75 561.735 9802.54 561.21 9801.01 561.21C9799.48 561.21 9798.26 561.75 9797.36 562.83C9796.46 563.88 9795.8 565.425 9795.38 567.465C9794.99 569.475 9794.8 571.95 9794.8 574.89Z\" fill=\"black\" id=\"n743\"/>\n</g>\n</svg>\n";
+
+export type GaugesWatchDigitalNumbersBetaNumber0TypeMinuteProps = OpenBridgeAssetProps;
+
+export const GaugesWatchDigitalNumbersBetaNumber0TypeMinute = React.forwardRef(function GaugesWatchDigitalNumbersBetaNumber0TypeMinute(props: GaugesWatchDigitalNumbersBetaNumber0TypeMinuteProps, ref: any) {
+  return renderOpenBridgeSvg(svgMarkup, { ...props, ref, intrinsicWidth: 24.0, intrinsicHeight: 32.0 });
+});
+
+export default GaugesWatchDigitalNumbersBetaNumber0TypeMinute;

@@ -1,0 +1,12 @@
+import * as React from "react";
+import { renderOpenBridgeSvg, type OpenBridgeAssetProps } from "../../../../runtime/renderOpenBridgeSvg";
+
+const svgMarkup = "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"48.0\" height=\"48.0\" viewBox=\"0 0 48.0 48.0\" fill=\"none\">\n  <defs><clipPath id=\"clip__asset\"><rect x=\"0\" y=\"0\" width=\"48.0\" height=\"48.0\"/></clipPath><mask id=\"mask19_68_6728\" style=\"mask-type:alpha\" maskUnits=\"userSpaceOnUse\" x=\"1685\" y=\"249\" width=\"10\" height=\"30\">\n<path d=\"M1686 252C1686 250.895 1686.9 250 1688 250H1692C1693.1 250 1694 250.895 1694 252V276C1694 277.105 1693.1 278 1692 278H1688C1686.9 278 1686 277.105 1686 276V252Z\" fill=\"#F0F0F0\" stroke=\"#F0F0F0\" id=\"n251\"/>\n</mask>\n</defs>\n  <g clip-path=\"url(#clip__asset)\" transform=\"translate(-1666.0 -240.0)\"><path d=\"M1689.59 241.57L1685.56 247.21C1685.33 247.54 1685.56 248 1685.97 248H1694.03C1694.44 248 1694.67 247.54 1694.44 247.21L1690.41 241.57C1690.21 241.291 1689.79 241.291 1689.59 241.57Z\" fill=\"#BEBEBE\" id=\"n248\"/>\n<circle cx=\"1690\" cy=\"264\" r=\"18\" fill=\"white\" stroke=\"#BEBEBE\" id=\"n249\"/>\n<path d=\"M1686 252C1686 250.895 1686.9 250 1688 250H1692C1693.1 250 1694 250.895 1694 252V276C1694 277.105 1693.1 278 1692 278H1688C1686.9 278 1686 277.105 1686 276V252Z\" fill=\"#F0F0F0\" stroke=\"#F0F0F0\" id=\"n250\"/>\n<g mask=\"url(#mask19_68_6728)\" id=\"n252\">\n<rect x=\"1686\" y=\"256\" width=\"8\" height=\"8\" fill=\"#2D548B\" stroke=\"#2D548B\" id=\"n253\"/>\n</g>\n</g>\n</svg>\n";
+
+export type IndicatorsPropulsionPropulsionAzimuthStateInCommandProps = OpenBridgeAssetProps;
+
+export const IndicatorsPropulsionPropulsionAzimuthStateInCommand = React.forwardRef(function IndicatorsPropulsionPropulsionAzimuthStateInCommand(props: IndicatorsPropulsionPropulsionAzimuthStateInCommandProps, ref: any) {
+  return renderOpenBridgeSvg(svgMarkup, { ...props, ref, intrinsicWidth: 48.0, intrinsicHeight: 48.0 });
+});
+
+export default IndicatorsPropulsionPropulsionAzimuthStateInCommand;

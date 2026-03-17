@@ -1,0 +1,4 @@
+import { type OpenBridgeAssetProps } from "../../../../runtime/renderOpenBridgeSvg";
+export type MainNavigationElementsBuildingBlockNavigationMenuNavigationMenuFooterTypeHorizontalIconLabelProps = OpenBridgeAssetProps;
+export declare const MainNavigationElementsBuildingBlockNavigationMenuNavigationMenuFooterTypeHorizontalIconLabel: any;
+export default MainNavigationElementsBuildingBlockNavigationMenuNavigationMenuFooterTypeHorizontalIconLabel;
